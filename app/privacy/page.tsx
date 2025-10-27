@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicy() {
   return (
-    <div className="bg-black min-h-screen py-16 px-4">
+    <div className="bg-black min-h-screen pt-24 pb-16 px-4">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-8 hero-title">
           Privacy <span className="gold-gradient">Policy</span>
@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
 
         <div className="prose prose-invert prose-lg max-w-none">
           <div className="bg-white/5 border border-white/10 rounded-lg p-6 mb-8">
-            <p className="text-sm text-gray-400 mb-2">Last Updated: January 2025</p>
+            <p className="text-sm text-gray-400 mb-2">Last Updated: October 27, 2025</p>
           </div>
 
           <section className="mb-12">
@@ -47,6 +47,7 @@ export default function PrivacyPolicy() {
             <ul className="list-disc list-inside text-gray-300 mb-4 space-y-2">
               <li><strong className="text-white">Usage Data:</strong> Information about your interactions with the App, such as the habits you track, habits you complete, streaks you achieve, XP you earn, and your rank progression.</li>
               <li><strong className="text-white">Device Data:</strong> Information about your mobile device, such as your device ID, model, operating system, and language. We collect your device's push notification token if you consent to receive notifications.</li>
+              <li><strong className="text-white">Advertising Identifier:</strong> If you provide your consent through Apple's App Tracking Transparency (ATT) prompt, we may collect your device's advertising identifier (IDFA). This is a random, non-personal identifier assigned by Apple to your device that can be reset by you at any time through your device's settings.</li>
             </ul>
           </section>
 
@@ -108,22 +109,39 @@ export default function PrivacyPolicy() {
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold text-white mb-2">Advertising Partners</h3>
-                <p className="text-gray-300 mb-2">
-                  We share key conversion events (like a completed purchase) with Meta (Facebook) and Google to measure the effectiveness of our advertising campaigns and to help them show you more relevant ads. This helps us find more users like you.
-                </p>
-                <ul className="list-disc list-inside text-gray-300 space-y-1">
-                  <li>
-                    <a href="https://www.facebook.com/privacy/explanation" className="text-[#d4af37] hover:underline" target="_blank" rel="noopener noreferrer">
-                      Meta's Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://policies.google.com/privacy" className="text-[#d4af37] hover:underline" target="_blank" rel="noopener noreferrer">
-                      Google's Advertising Privacy & Terms
-                    </a>
-                  </li>
-                </ul>
+                <h3 className="text-lg font-semibold text-white mb-2">Attribution & Advertising Partners</h3>
+                <div className="space-y-4">
+                  <div>
+                    <p className="text-gray-300 mb-2">
+                      <strong className="text-white">AppsFlyer:</strong> AppsFlyer is our Mobile Measurement Partner (MMP). We use AppsFlyer to understand which of our marketing campaigns (e.g., ads on platforms like TikTok, Meta, or Google) led you to install our App. If you consent to tracking, AppsFlyer helps us and our advertising partners attribute your install to a specific ad by using your device's advertising identifier (IDFA). This aggregated and anonymized data is crucial for us to invest our resources wisely and grow the Victus legion.{' '}
+                      <a href="https://www.appsflyer.com/legal/privacy-policy/" className="text-[#d4af37] hover:underline" target="_blank" rel="noopener noreferrer">
+                        AppsFlyer's Privacy Policy
+                      </a>
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-gray-300 mb-2">
+                      <strong className="text-white">Meta (Facebook), Google, & TikTok:</strong> We share key conversion events (like a completed purchase) and, if you consent to tracking, your advertising identifier with these partners. This is facilitated by our attribution partner, AppsFlyer, and allows us to measure the effectiveness of our advertising campaigns and helps these platforms show you more relevant ads.
+                    </p>
+                    <ul className="list-disc list-inside text-gray-300 space-y-1 mt-2">
+                      <li>
+                        <a href="https://www.facebook.com/privacy/explanation" className="text-[#d4af37] hover:underline" target="_blank" rel="noopener noreferrer">
+                          Meta's Privacy Policy
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://policies.google.com/privacy" className="text-[#d4af37] hover:underline" target="_blank" rel="noopener noreferrer">
+                          Google's Advertising Privacy & Terms
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.tiktok.com/legal/privacy-policy" className="text-[#d4af37] hover:underline" target="_blank" rel="noopener noreferrer">
+                          TikTok's Privacy Policy
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
@@ -144,9 +162,17 @@ export default function PrivacyPolicy() {
 
           <section className="mb-12">
             <h2 className="text-2xl font-bold text-white mb-4">7. Your Rights</h2>
-            <p className="text-gray-300 leading-relaxed">
-              You have the right to review, change, or terminate your account at any time. You can request account deletion from within the App's settings. Upon your request to terminate your account, we will permanently delete your account and information from our active databases.
+            <p className="text-gray-300 leading-relaxed mb-4">
+              You have the right to review, change, or terminate your account at any time.
             </p>
+            <ul className="list-disc list-inside text-gray-300 space-y-3">
+              <li>
+                <strong className="text-white">Account Deletion:</strong> You can request account deletion from within the App's settings. Upon your request, we will permanently delete your account and information from our active databases.
+              </li>
+              <li>
+                <strong className="text-white">Tracking Preferences:</strong> You have the right to control whether your activity is tracked for advertising purposes. You can grant or revoke this permission at any time via the pop-up prompt within our App or through your iOS device's settings under 'Privacy & Security' → 'Tracking'.
+              </li>
+            </ul>
           </section>
 
           <section className="mb-12">

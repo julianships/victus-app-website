@@ -18,9 +18,6 @@ export default function Navigation() {
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/#features" className="text-gray-300 hover:text-[#d4af37] transition-colors">
-              Features
-            </Link>
             <Link href="/support" className="text-gray-300 hover:text-[#d4af37] transition-colors">
               Support
             </Link>
