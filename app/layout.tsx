@@ -8,6 +8,11 @@ export const metadata: Metadata = {
   description: "Build unbreakable discipline through gamified self-mastery. Track habits, earn XP, climb leaderboards, and become the hero of your own journey.",
   keywords: ["habit tracker", "self improvement", "discipline", "gamification", "personal development", "stoicism"],
   authors: [{ name: "Victus" }],
+  icons: {
+    icon: "/victus-dark.png",
+    shortcut: "/victus-dark.png",
+    apple: "/victus-dark.png",
+  },
   openGraph: {
     title: "Victus - 66 Days to a Victorious Lifestyle",
     description: "Build unbreakable discipline through gamified self-mastery.",
