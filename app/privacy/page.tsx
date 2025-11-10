@@ -1,195 +1,169 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Victus",
-  description: "Privacy Policy for Victus app",
+  title: "Privacy Policy and Terms of Service - Victus",
+  description: "Privacy Policy and Terms of Service for Victus app",
 };
 
 export default function PrivacyPolicy() {
   return (
     <div className="bg-black min-h-screen pt-24 pb-16 px-4">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-white mb-8 hero-title">
-          Privacy <span className="gold-gradient">Policy</span>
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-8 hero-title text-center">
+          Privacy Policy and <span className="gold-gradient">Terms of Service</span>
         </h1>
 
         <div className="prose prose-invert prose-lg max-w-none">
           <div className="bg-white/5 border border-white/10 rounded-lg p-6 mb-8">
-            <p className="text-sm text-gray-400 mb-2">Last Updated: October 27, 2025</p>
+            <p className="text-sm text-gray-400 mb-2">Last Updated: October 28, 2025</p>
           </div>
 
-          <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-4">1. Introduction</h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Welcome to Victus ("we," "us," "our"). We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application, Victus (the "App"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the application.
-            </p>
+          <div className="bg-gradient-to-br from-white/5 to-white/[0.02] border border-white/10 rounded-xl p-6 mb-12">
             <p className="text-gray-300 leading-relaxed">
-              We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the "Last Updated" date of this Privacy Policy.
+              Welcome to Victus. Before you can use our application (the "App"), it is mandatory that you agree to these Terms of Service and Privacy Policy. By accessing or using our services, you confirm that you have read, understood, and accepted these terms and agree to be legally bound by them. If you do not agree to these terms, you must not use our App or services.
             </p>
-          </section>
+          </div>
 
+          {/* Terms of Service */}
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-4">2. Collection of Your Information</h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              We may collect information about you in a variety of ways. The information we may collect via the App includes:
-            </p>
+            <h2 className="text-3xl font-bold text-white mb-8">Terms of Service</h2>
 
-            <h3 className="text-xl font-semibold text-white mb-3 mt-6">A. Personal Data You Provide to Us</h3>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              We collect information you voluntarily provide to us during the onboarding process and when you create an account, such as:
-            </p>
-            <ul className="list-disc list-inside text-gray-300 mb-4 space-y-2">
-              <li><strong className="text-white">Account Information:</strong> Your email address and a username.</li>
-              <li><strong className="text-white">Onboarding Information:</strong> Your age range, self-assessed "current state," chosen "primary virtue," identified "primary obstacle," and your answers to the baseline questions regarding your habits (e.g., wake-up time, workout frequency, screen time).</li>
-            </ul>
-
-            <h3 className="text-xl font-semibold text-white mb-3 mt-6">B. Data We Collect Automatically</h3>
-            <ul className="list-disc list-inside text-gray-300 mb-4 space-y-2">
-              <li><strong className="text-white">Usage Data:</strong> Information about your interactions with the App, such as the habits you track, habits you complete, streaks you achieve, XP you earn, and your rank progression.</li>
-              <li><strong className="text-white">Device Data:</strong> Information about your mobile device, such as your device ID, model, operating system, and language. We collect your device's push notification token if you consent to receive notifications.</li>
-              <li><strong className="text-white">Advertising Identifier:</strong> If you provide your consent through Apple's App Tracking Transparency (ATT) prompt, we may collect your device's advertising identifier (IDFA). This is a random, non-personal identifier assigned by Apple to your device that can be reset by you at any time through your device's settings.</li>
-            </ul>
-          </section>
-
-          <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-4">3. Use of Your Information</h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we use information collected about you via the App to:
-            </p>
-            <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li>Create and manage your account.</li>
-              <li>Generate your personalized 66-day habit-building plan and apply progressive overload updates.</li>
-              <li>Display your habit progress, streaks, XP, Pillar Levels, and Global Rank.</li>
-              <li>Display your username, XP, and streak on the public in-app leaderboard.</li>
-              <li>Send you push notifications to remind you of your daily habits and congratulate you on milestones.</li>
-              <li>Process payments and manage your subscription.</li>
-              <li>Monitor and analyze usage and trends to improve your experience with the App.</li>
-              <li>Diagnose and fix technology problems and crashes.</li>
-            </ul>
-          </section>
-
-          <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-4">4. Disclosure of Your Information</h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              We may share information we have collected about you in certain situations. Your information may be disclosed to the following third-party service providers who perform services for us or on our behalf:
-            </p>
-
-            <div className="space-y-4">
+            <div className="space-y-8">
               <div>
-                <h3 className="text-lg font-semibold text-white mb-2">Backend & Database</h3>
-                <p className="text-gray-300">
-                  Google Firebase is our backend provider for user authentication, database storage (Firestore), and server-side logic (Cloud Functions).{' '}
-                  <a href="https://policies.google.com/privacy" className="text-[#d4af37] hover:underline" target="_blank" rel="noopener noreferrer">
-                    Google's Privacy Policy
-                  </a>
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold text-white mb-2">Subscription & Payment Processing</h3>
-                <p className="text-gray-300">
-                  RevenueCat manages our in-app subscriptions. We do not process or store your payment card details. That information is provided directly to the respective app store (Apple App Store or Google Play Store) and is handled by RevenueCat.{' '}
-                  <a href="https://www.revenuecat.com/privacy" className="text-[#d4af37] hover:underline" target="_blank" rel="noopener noreferrer">
-                    RevenueCat's Privacy Policy
-                  </a>
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold text-white mb-2">Analytics</h3>
-                <ul className="list-disc list-inside text-gray-300 space-y-1">
-                  <li>
-                    Mixpanel helps us understand how you use the App so we can improve it.{' '}
-                    <a href="https://mixpanel.com/legal/privacy-policy" className="text-[#d4af37] hover:underline" target="_blank" rel="noopener noreferrer">
-                      Mixpanel's Privacy Policy
-                    </a>
-                  </li>
-                  <li>Firebase Crashlytics & Performance Monitoring helps us identify and fix app crashes and performance issues.</li>
+                <h3 className="text-2xl font-bold text-white mb-4">1. Use of Our Services</h3>
+                <ul className="list-disc list-inside text-gray-300 space-y-2">
+                  <li><strong className="text-white">Personal Use Only:</strong> Our services are intended for your personal, non-commercial use only. You are strictly prohibited from reselling, copying, or otherwise using our services for commercial purposes.</li>
+                  <li><strong className="text-white">Software Protection:</strong> You may not reverse-engineer, decompile, disassemble, or attempt to discover the source code or underlying algorithms of our App.</li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold text-white mb-2">Attribution & Advertising Partners</h3>
-                <div className="space-y-4">
-                  <div>
-                    <p className="text-gray-300 mb-2">
-                      <strong className="text-white">AppsFlyer:</strong> AppsFlyer is our Mobile Measurement Partner (MMP). We use AppsFlyer to understand which of our marketing campaigns (e.g., ads on platforms like TikTok, Meta, or Google) led you to install our App. If you consent to tracking, AppsFlyer helps us and our advertising partners attribute your install to a specific ad by using your device's advertising identifier (IDFA). This aggregated and anonymized data is crucial for us to invest our resources wisely and grow the Victus legion.{' '}
-                      <a href="https://www.appsflyer.com/legal/privacy-policy/" className="text-[#d4af37] hover:underline" target="_blank" rel="noopener noreferrer">
-                        AppsFlyer's Privacy Policy
-                      </a>
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-gray-300 mb-2">
-                      <strong className="text-white">Meta (Facebook), Google, & TikTok:</strong> We share key conversion events (like a completed purchase) and, if you consent to tracking, your advertising identifier with these partners. This is facilitated by our attribution partner, AppsFlyer, and allows us to measure the effectiveness of our advertising campaigns and helps these platforms show you more relevant ads.
-                    </p>
-                    <ul className="list-disc list-inside text-gray-300 space-y-1 mt-2">
-                      <li>
-                        <a href="https://www.facebook.com/privacy/explanation" className="text-[#d4af37] hover:underline" target="_blank" rel="noopener noreferrer">
-                          Meta's Privacy Policy
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://policies.google.com/privacy" className="text-[#d4af37] hover:underline" target="_blank" rel="noopener noreferrer">
-                          Google's Advertising Privacy & Terms
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.tiktok.com/legal/privacy-policy" className="text-[#d4af37] hover:underline" target="_blank" rel="noopener noreferrer">
-                          TikTok's Privacy Policy
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                <h3 className="text-2xl font-bold text-white mb-4">2. Subscription Details</h3>
+                <p className="text-gray-300 leading-relaxed mb-3">
+                  Victus operates on a subscription basis with billing occurring on a monthly or yearly cycle.
+                </p>
+                <p className="text-gray-300 leading-relaxed mb-3">
+                  Your chosen payment method will be automatically billed via your Apple App Store account according to our subscription plan unless you cancel your subscription. You are responsible for all charges incurred on your account.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  You can manage your subscription and turn off auto-renewal at any time through your iTunes Account Settings.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-4">3. Disclaimers and Limitation of Liability</h3>
+                <ul className="list-disc list-inside text-gray-300 space-y-3">
+                  <li>
+                    <strong className="text-white">Services Provided "As Is":</strong> Our services are provided on an "as is" and "as available" basis. To the maximum extent permitted by law, Victus disclaims all warranties, whether express or implied, including warranties of merchantability, fitness for a particular purpose, and non-infringement.
+                  </li>
+                  <li>
+                    <strong className="text-white">Limitation of Liability:</strong> Under no circumstances shall Victus be liable for any indirect, incidental, special, consequential, or punitive damages arising out of your use or inability to use our services. Our total liability to you for all damages shall not exceed the amount of fifty dollars ($50.00).
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-4">4. Indemnification</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  You agree to indemnify and hold harmless Victus, its affiliates, and employees from any claims, liabilities, damages, and expenses (including reasonable attorneys' fees) arising out of your use of our services or your breach of these Terms.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-4">5. Termination and Modification</h3>
+                <ul className="list-disc list-inside text-gray-300 space-y-2">
+                  <li><strong className="text-white">Termination:</strong> We reserve the right to suspend or terminate your access to our services at any time, without prior notice, if you violate these Terms.</li>
+                  <li><strong className="text-white">Modification:</strong> We reserve the right to update these Terms at any time. Any changes will be posted on our website, and your continued use of our services after such changes will constitute your acceptance of the new terms.</li>
+                </ul>
               </div>
             </div>
           </section>
 
+          {/* Privacy Policy */}
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-4">5. Data Security</h2>
-            <p className="text-gray-300 leading-relaxed">
-              We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable.
+            <h2 className="text-3xl font-bold text-white mb-8">Privacy Policy</h2>
+            <p className="text-gray-300 leading-relaxed mb-8">
+              At Victus, we are committed to safeguarding your personal information.
             </p>
-          </section>
 
-          <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-4">6. Data Retention</h2>
-            <p className="text-gray-300 leading-relaxed">
-              We will retain your personal information for as long as your account is active or as needed to provide you with the App's services. We will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements.
-            </p>
-          </section>
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-4">6. Information Collection</h3>
+                <p className="text-gray-300 leading-relaxed mb-3">
+                  We collect information you voluntarily provide to us when you create an account and use the App. This includes:
+                </p>
+                <ul className="list-disc list-inside text-gray-300 space-y-2">
+                  <li><strong className="text-white">Account Information:</strong> Your email address and username.</li>
+                  <li><strong className="text-white">Onboarding Information:</strong> Your age range, self-assessed current state, chosen primary virtue, identified primary obstacle, and your baseline habit data.</li>
+                  <li><strong className="text-white">Usage Data:</strong> Information about your interactions with the App, such as habits tracked, XP earned, and rank progression.</li>
+                  <li><strong className="text-white">Device Data:</strong> Your device's push notification token (if you consent) and your device's advertising identifier (IDFA) if you provide consent through Apple's App Tracking Transparency prompt.</li>
+                </ul>
+              </div>
 
-          <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-4">7. Your Rights</h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              You have the right to review, change, or terminate your account at any time.
-            </p>
-            <ul className="list-disc list-inside text-gray-300 space-y-3">
-              <li>
-                <strong className="text-white">Account Deletion:</strong> You can request account deletion from within the App's settings. Upon your request, we will permanently delete your account and information from our active databases.
-              </li>
-              <li>
-                <strong className="text-white">Tracking Preferences:</strong> You have the right to control whether your activity is tracked for advertising purposes. You can grant or revoke this permission at any time via the pop-up prompt within our App or through your iOS device's settings under 'Privacy & Security' → 'Tracking'.
-              </li>
-            </ul>
-          </section>
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-4">7. Use of Your Information</h3>
+                <p className="text-gray-300 leading-relaxed mb-3">
+                  We use your information to:
+                </p>
+                <ul className="list-disc list-inside text-gray-300 space-y-2">
+                  <li>Provide, operate, and improve our services.</li>
+                  <li>Create and manage your account and process subscriptions.</li>
+                  <li>Generate your personalized 66-day plan.</li>
+                  <li>Display your progress and rank on your profile and the public leaderboard.</li>
+                  <li>Send you push notifications.</li>
+                  <li>Measure the effectiveness of our marketing campaigns.</li>
+                </ul>
+              </div>
 
-          <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-4">8. Children's Privacy</h2>
-            <p className="text-gray-300 leading-relaxed">
-              We do not knowingly solicit information from or market to children under the age of 13. If you become aware of any data we have collected from children under age 13, please contact us using the contact information provided below.
-            </p>
-          </section>
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-4">8. Disclosure of Your Information</h3>
+                <p className="text-gray-300 leading-relaxed mb-3">
+                  We share your information with trusted third-party service providers to perform services on our behalf, including:
+                </p>
+                <ul className="list-disc list-inside text-gray-300 space-y-2">
+                  <li><strong className="text-white">Backend & Database:</strong> Google Firebase</li>
+                  <li><strong className="text-white">Subscription Management:</strong> RevenueCat</li>
+                  <li><strong className="text-white">Analytics:</strong> Mixpanel, Firebase Crashlytics</li>
+                  <li><strong className="text-white">Attribution & Advertising:</strong> AppsFlyer, Meta (Facebook), Google, and TikTok.</li>
+                </ul>
+              </div>
 
-          <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-4">9. Contact Us</h2>
-            <p className="text-gray-300 leading-relaxed">
-              If you have questions or comments about this Privacy Policy, please contact us at:{' '}
-              <a href="mailto:support@getvictus.com" className="text-[#d4af37] hover:underline">
-                support@getvictus.com
-              </a>
-            </p>
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-4">9. Data Security and Retention</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  We implement appropriate technical measures to protect your data. Your data is retained for as long as your account is active or as necessary to fulfill the purposes outlined in this Policy.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-4">10. Your Data Rights</h3>
+                <p className="text-gray-300 leading-relaxed mb-3">
+                  You have the right to:
+                </p>
+                <ul className="list-disc list-inside text-gray-300 space-y-2">
+                  <li>Access, correct, or update your personal data.</li>
+                  <li>Request the deletion of your account and associated data from within the App's settings.</li>
+                  <li>Control your tracking preferences for advertising purposes via the in-app prompt or your device's iOS settings.</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-4">11. Children's Privacy</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  We do not knowingly collect information from or market to children under the age of 13.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-4">12. Contact Us</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  If you have questions about these Terms or our Privacy Policy, please contact us at:{' '}
+                  <a href="mailto:support@getvictus.com" className="text-[#d4af37] hover:underline">
+                    support@getvictus.com
+                  </a>
+                </p>
+              </div>
+            </div>
           </section>
         </div>
       </div>
