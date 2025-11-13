@@ -18,7 +18,7 @@ export default function Home() {
               </p>
 
               <a
-                href="https://apps.apple.com/app/victus"
+                href="https://apps.apple.com/us/app/victus-discipline-habits/id6754204999"
                 className="inline-block hover:opacity-80 transition-opacity"
               >
                 <img

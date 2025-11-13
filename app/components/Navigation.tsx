@@ -25,7 +25,7 @@ export default function Navigation() {
               Privacy
             </Link>
             <a
-              href="https://apps.apple.com/app/victus"
+              href="https://apps.apple.com/us/app/victus-discipline-habits/id6754204999"
               className="bg-gradient-to-r from-[#d4af37] to-[#f4d03f] text-black px-6 py-2 rounded-full font-semibold hover:opacity-90 transition-opacity"
               style={{ fontFamily: "'Orbitron', sans-serif" }}
             >
@@ -36,7 +36,7 @@ export default function Navigation() {
           {/* Mobile menu button */}
           <div className="md:hidden">
             <a
-              href="https://apps.apple.com/app/victus"
+              href="https://apps.apple.com/us/app/victus-discipline-habits/id6754204999"
               className="bg-gradient-to-r from-[#d4af37] to-[#f4d03f] text-black px-4 py-2 rounded-full font-semibold text-sm"
               style={{ fontFamily: "'Orbitron', sans-serif" }}
             >
