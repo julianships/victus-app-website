@@ -33,7 +33,7 @@ export default function Home() {
             <div className="flex-shrink-0 w-full lg:w-auto flex justify-center lg:justify-end lg:-mt-12 xl:-mt-16">
               <div className="w-full max-w-[280px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[450px] xl:max-w-[550px]">
                 <img
-                  src="/App Store Screenshots/New Banner Pic.jpg"
+                  src="/App Store Screenshots/New Banner Pic Updated.png"
                   alt="Victus app"
                   className="w-full h-auto object-contain"
                 />
