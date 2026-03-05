@@ -1,0 +1,399 @@
+{
+  "metadata": {
+    "defaultTitle": "Victus - 66 Days to a Victorious Lifestyle",
+    "defaultDescription": "Build unbreakable discipline through gamified self-mastery. Track habits, earn XP, climb leaderboards, and become the hero of your own journey.",
+    "supportTitle": "Support - Victus",
+    "supportDescription": "Get help with Victus. Contact our support team for assistance.",
+    "privacyTitle": "Privacy Policy and Terms of Service - Victus",
+    "privacyDescription": "Privacy Policy and Terms of Service for Victus app",
+    "termsTitle": "Terms of Service - Victus",
+    "termsDescription": "Terms of Service for Victus app"
+  },
+  "navigation": {
+    "support": "Support",
+    "privacy": "Privacy",
+    "download": "DOWNLOAD"
+  },
+  "footer": {
+    "tagline": "66 Days to a Victorious Lifestyle. Build unbreakable discipline through gamified self-mastery.",
+    "product": "Product",
+    "features": "Features",
+    "support": "Support",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "rightsReserved": "All rights reserved."
+  },
+  "home": {
+    "headlineLine1": "Stop drifting.",
+    "headlineLine2": "Start building.",
+    "subtitle": "Your 66-day crucible to forge discipline, compete with a global legion, and build a life of victory.",
+    "appStoreAlt": "Download on the App Store",
+    "screenshotAlt": "Victus app"
+  },
+  "supportPage": {
+    "titlePrefix": "Support",
+    "titleAccent": "Center",
+    "subtitle": "Need help? We're here to support you on your journey to victory.",
+    "contactTitle": "Contact Us",
+    "emailSupportTitle": "Email Support",
+    "emailSupportDescription": "For app issues, feature requests, or general inquiries",
+    "faqTitlePrefix": "Frequently Asked",
+    "faqTitleAccent": "Questions",
+    "faqs": [
+      {
+        "question": "How do I cancel my subscription?",
+        "answer": "You can manage your subscription through your App Store settings. Go to Settings → [Your Name] → Subscriptions → Victus, then select Cancel Subscription."
+      },
+      {
+        "question": "How does the 66-day challenge work?",
+        "answer": "After onboarding, Victus generates a personalized plan based on your selected Pillars (Discipline, Fitness, Wellness, etc.). Each day, you'll receive a checklist of habits to complete. Completing habits earns you XP and builds your streak."
+      },
+      {
+        "question": "What are XP and Ranks?",
+        "answer": "XP (Experience Points) are earned by completing daily habits. As you accumulate XP, you progress through ranks: Bronze → Silver → Gold → Spartan. Each rank represents your growth and mastery."
+      },
+      {
+        "question": "How does the leaderboard work?",
+        "answer": "The Global Leaderboard shows all Victus users ranked by Total XP or Current Streak. It's a way to compete with warriors worldwide and stay motivated through friendly competition."
+      },
+      {
+        "question": "My streak broke. Can it be restored?",
+        "answer": "Streaks are part of building true discipline and cannot be restored. However, every new day is a chance to start fresh and build an even stronger streak."
+      },
+      {
+        "question": "I found a bug. How do I report it?",
+        "answer": "Please email support@getvictus.com with details about the issue, including your device model and iOS version. We appreciate your help in making Victus better!"
+      },
+      {
+        "question": "Is Victus available on Android?",
+        "answer": "Victus is currently iOS-only, but an Android version is in development. Email us to be notified when it launches."
+      },
+      {
+        "question": "How do I delete my account?",
+        "answer": "You can request account deletion from within the app's settings, or email support@getvictus.com. All your data will be permanently deleted from our servers."
+      }
+    ],
+    "stillNeedHelpTitle": "Still Need Help?",
+    "stillNeedHelpDescription": "Can't find what you're looking for? Our support team is ready to assist you.",
+    "contactButton": "Contact Support"
+  },
+  "privacyPage": {
+    "titlePrefix": "Privacy Policy and",
+    "titleAccent": "Terms of Service",
+    "lastUpdatedLabel": "Last Updated",
+    "lastUpdatedDate": "October 28, 2025",
+    "intro": "Welcome to Victus. Before you can use our application (the \"App\"), it is mandatory that you agree to these Terms of Service and Privacy Policy. By accessing or using our services, you confirm that you have read, understood, and accepted these terms and agree to be legally bound by them. If you do not agree to these terms, you must not use our App or services.",
+    "termsSectionTitle": "Terms of Service",
+    "termsItems": [
+      {
+        "title": "1. Use of Our Services",
+        "bullets": [
+          {
+            "label": "Personal Use Only:",
+            "text": "Our services are intended for your personal, non-commercial use only. You are strictly prohibited from reselling, copying, or otherwise using our services for commercial purposes."
+          },
+          {
+            "label": "Software Protection:",
+            "text": "You may not reverse-engineer, decompile, disassemble, or attempt to discover the source code or underlying algorithms of our App."
+          }
+        ]
+      },
+      {
+        "title": "2. Subscription Details",
+        "paragraphs": [
+          "Victus operates on a subscription basis with billing occurring on a monthly or yearly cycle.",
+          "Your chosen payment method will be automatically billed via your Apple App Store account according to our subscription plan unless you cancel your subscription. You are responsible for all charges incurred on your account.",
+          "You can manage your subscription and turn off auto-renewal at any time through your iTunes Account Settings."
+        ]
+      },
+      {
+        "title": "3. Disclaimers and Limitation of Liability",
+        "bullets": [
+          {
+            "label": "Services Provided \"As Is\":",
+            "text": "Our services are provided on an \"as is\" and \"as available\" basis. To the maximum extent permitted by law, Victus disclaims all warranties, whether express or implied, including warranties of merchantability, fitness for a particular purpose, and non-infringement."
+          },
+          {
+            "label": "Limitation of Liability:",
+            "text": "Under no circumstances shall Victus be liable for any indirect, incidental, special, consequential, or punitive damages arising out of your use or inability to use our services. Our total liability to you for all damages shall not exceed fifty dollars ($50.00)."
+          }
+        ]
+      },
+      {
+        "title": "4. Indemnification",
+        "paragraphs": [
+          "You agree to indemnify and hold harmless Victus, its affiliates, and employees from any claims, liabilities, damages, and expenses (including reasonable attorneys' fees) arising out of your use of our services or your breach of these Terms."
+        ]
+      },
+      {
+        "title": "5. Termination and Modification",
+        "bullets": [
+          {
+            "label": "Termination:",
+            "text": "We reserve the right to suspend or terminate your access to our services at any time, without prior notice, if you violate these Terms."
+          },
+          {
+            "label": "Modification:",
+            "text": "We reserve the right to update these Terms at any time. Any changes will be posted on our website, and your continued use of our services after such changes will constitute your acceptance of the new terms."
+          }
+        ]
+      }
+    ],
+    "privacySectionTitle": "Privacy Policy",
+    "privacyLead": "At Victus, we are committed to safeguarding your personal information.",
+    "privacyItems": [
+      {
+        "title": "6. Information Collection",
+        "paragraphs": [
+          "We collect information you voluntarily provide when you create an account and use the App. This includes:"
+        ],
+        "bullets": [
+          {
+            "label": "Account Information:",
+            "text": "Your email address and username."
+          },
+          {
+            "label": "Onboarding Information:",
+            "text": "Your age range, self-assessed current state, chosen primary virtue, identified primary obstacle, and baseline habit data."
+          },
+          {
+            "label": "Usage Data:",
+            "text": "Information about your interactions with the App, such as habits tracked, XP earned, and rank progression."
+          },
+          {
+            "label": "Device Data:",
+            "text": "Your push notification token (if you consent) and your device advertising identifier (IDFA) if you provide consent through Apple's App Tracking Transparency prompt."
+          }
+        ]
+      },
+      {
+        "title": "7. Use of Your Information",
+        "paragraphs": [
+          "We use your information to:"
+        ],
+        "bullets": [
+          {
+            "text": "Provide, operate, and improve our services."
+          },
+          {
+            "text": "Create and manage your account and process subscriptions."
+          },
+          {
+            "text": "Generate your personalized 66-day plan."
+          },
+          {
+            "text": "Display your progress and rank on your profile and the public leaderboard."
+          },
+          {
+            "text": "Send you push notifications."
+          },
+          {
+            "text": "Measure the effectiveness of our marketing campaigns."
+          }
+        ]
+      },
+      {
+        "title": "8. Disclosure of Your Information",
+        "paragraphs": [
+          "We share your information with trusted third-party service providers to perform services on our behalf, including:"
+        ],
+        "bullets": [
+          {
+            "label": "Backend & Database:",
+            "text": "Google Firebase"
+          },
+          {
+            "label": "Subscription Management:",
+            "text": "RevenueCat"
+          },
+          {
+            "label": "Analytics:",
+            "text": "Mixpanel, Firebase Crashlytics"
+          },
+          {
+            "label": "Attribution & Advertising:",
+            "text": "AppsFlyer, Meta (Facebook), Google, and TikTok"
+          }
+        ]
+      },
+      {
+        "title": "9. Data Security and Retention",
+        "paragraphs": [
+          "We implement appropriate technical measures to protect your data. Your data is retained for as long as your account is active or as necessary to fulfill the purposes outlined in this policy."
+        ]
+      },
+      {
+        "title": "10. Your Data Rights",
+        "paragraphs": [
+          "You have the right to:"
+        ],
+        "bullets": [
+          {
+            "text": "Access, correct, or update your personal data."
+          },
+          {
+            "text": "Request deletion of your account and associated data from within the app settings."
+          },
+          {
+            "text": "Control your tracking preferences for advertising purposes via the in-app prompt or your iOS settings."
+          }
+        ]
+      },
+      {
+        "title": "11. Children's Privacy",
+        "paragraphs": [
+          "We do not knowingly collect information from or market to children under the age of 13."
+        ]
+      },
+      {
+        "title": "12. Contact Us",
+        "paragraphs": [
+          "If you have questions about these Terms or our Privacy Policy, please contact us at support@getvictus.com."
+        ]
+      }
+    ]
+  },
+  "termsPage": {
+    "titlePrefix": "Terms of",
+    "titleAccent": "Service",
+    "lastUpdatedLabel": "Last Updated",
+    "lastUpdatedDate": "January 2025",
+    "sections": [
+      {
+        "title": "1. Acceptance of Terms",
+        "paragraphs": [
+          "By accessing and using the Victus mobile application (\"App\"), you accept and agree to be bound by the terms of this agreement. If you do not agree to these Terms of Service, please do not use the App."
+        ]
+      },
+      {
+        "title": "2. Description of Service",
+        "paragraphs": [
+          "Victus is a habit-tracking and self-improvement application that provides users with:"
+        ],
+        "bullets": [
+          {
+            "text": "Personalized 66-day habit-building plans"
+          },
+          {
+            "text": "Daily habit tracking and progress monitoring"
+          },
+          {
+            "text": "Gamified features including XP, ranks, and achievements"
+          },
+          {
+            "text": "Global leaderboard functionality"
+          },
+          {
+            "text": "Streak tracking and notifications"
+          }
+        ]
+      },
+      {
+        "title": "3. User Accounts",
+        "paragraphs": [
+          "To use Victus, you must create an account. You agree to:"
+        ],
+        "bullets": [
+          {
+            "text": "Provide accurate, current, and complete information during registration"
+          },
+          {
+            "text": "Maintain the security of your account credentials"
+          },
+          {
+            "text": "Notify us immediately of any unauthorized access to your account"
+          },
+          {
+            "text": "Be responsible for all activities that occur under your account"
+          }
+        ]
+      },
+      {
+        "title": "4. Subscription and Payment",
+        "paragraphs": [
+          "Victus offers subscription-based access with monthly and annual billing options.",
+          "Subscriptions are billed through your Apple App Store account. Payment is charged at purchase confirmation and renews automatically unless auto-renew is turned off at least 24 hours before the end of the current period.",
+          "You may cancel your subscription through your App Store account settings. Cancellation takes effect at the end of the current billing period."
+        ]
+      },
+      {
+        "title": "5. User Conduct",
+        "paragraphs": [
+          "You agree not to:"
+        ],
+        "bullets": [
+          {
+            "text": "Use the App for illegal purposes or in violation of applicable laws"
+          },
+          {
+            "text": "Attempt to gain unauthorized access to any portion of the App"
+          },
+          {
+            "text": "Interfere with or disrupt the App or connected servers"
+          },
+          {
+            "text": "Use automated systems to access the App"
+          },
+          {
+            "text": "Impersonate any person or entity"
+          },
+          {
+            "text": "Harass, abuse, or harm other users"
+          },
+          {
+            "text": "Manipulate leaderboard rankings through fraudulent means"
+          }
+        ]
+      },
+      {
+        "title": "6. Leaderboard and Public Information",
+        "paragraphs": [
+          "By using Victus, you understand and agree that your username, XP, and streak information may be displayed on the public Global Leaderboard."
+        ]
+      },
+      {
+        "title": "7. Intellectual Property",
+        "paragraphs": [
+          "The App and its original content, features, and functionality are owned by Victus and protected by intellectual property laws. You may not copy, modify, distribute, sell, or lease any part of our App."
+        ]
+      },
+      {
+        "title": "8. Disclaimer of Warranties",
+        "paragraphs": [
+          "The App is provided \"as is\" and \"as available\" without warranties of any kind, either express or implied. Victus does not warrant that the App will be uninterrupted, secure, or error-free."
+        ]
+      },
+      {
+        "title": "9. Limitation of Liability",
+        "paragraphs": [
+          "In no event shall Victus, its directors, employees, or agents be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the App."
+        ]
+      },
+      {
+        "title": "10. Account Termination",
+        "paragraphs": [
+          "We reserve the right to terminate or suspend your account, without notice, for conduct that violates these Terms of Service or is otherwise harmful."
+        ]
+      },
+      {
+        "title": "11. Changes to Terms",
+        "paragraphs": [
+          "We reserve the right to modify these terms at any time. We will notify users of material changes by updating the last updated date. Continued use of the App after changes constitutes acceptance of the modified terms."
+        ]
+      },
+      {
+        "title": "12. Governing Law",
+        "paragraphs": [
+          "These Terms shall be governed by and construed in accordance with the laws of the United States, without regard to conflict of law provisions."
+        ]
+      },
+      {
+        "title": "13. Contact Information",
+        "paragraphs": [
+          "If you have any questions about these Terms of Service, please contact us at support@getvictus.com."
+        ]
+      }
+    ]
+  }
+}

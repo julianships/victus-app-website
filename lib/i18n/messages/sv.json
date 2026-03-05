@@ -1,0 +1,399 @@
+{
+  "metadata": {
+    "defaultTitle": "Victus - 66 dagar till en segerrik livsstil",
+    "defaultDescription": "Bygg okrossbar disciplin genom spelifierad självbehärskning. Spåra vanor, tjäna XP, klättra på topplistor och bli hjälten på din egen resa.",
+    "supportTitle": "Support - Victus",
+    "supportDescription": "Få hjälp med Victus. Kontakta vårt supportteam för hjälp.",
+    "privacyTitle": "Sekretesspolicy och användarvillkor - Victus",
+    "privacyDescription": "Sekretesspolicy och användarvillkor för appen Victus",
+    "termsTitle": "Användarvillkor - Victus",
+    "termsDescription": "Användarvillkor för appen Victus"
+  },
+  "navigation": {
+    "support": "Stöd",
+    "privacy": "Privatliv",
+    "download": "LADDA NER"
+  },
+  "footer": {
+    "tagline": "66 dagar till en segerrik livsstil. Bygg okrossbar disciplin genom spelifierad självbehärskning.",
+    "product": "Produkt",
+    "features": "Drag",
+    "support": "Stöd",
+    "legal": "Rättslig",
+    "privacyPolicy": "Sekretesspolicy",
+    "termsOfService": "Användarvillkor",
+    "rightsReserved": "Alla rättigheter reserverade."
+  },
+  "home": {
+    "headlineLine1": "Sluta driva.",
+    "headlineLine2": "Börja bygga.",
+    "subtitle": "Din 66-dagarsdegel för att skapa disciplin, tävla med en global legion och bygga ett liv i seger.",
+    "appStoreAlt": "Ladda ner på App Store",
+    "screenshotAlt": "Victus app"
+  },
+  "supportPage": {
+    "titlePrefix": "Stöd",
+    "titleAccent": "Centrum",
+    "subtitle": "Behöver du hjälp? Vi är här för att stötta dig på din resa mot seger.",
+    "contactTitle": "Kontakta oss",
+    "emailSupportTitle": "E-postsupport",
+    "emailSupportDescription": "För appproblem, funktionsförfrågningar eller allmänna frågor",
+    "faqTitlePrefix": "Vanliga frågor",
+    "faqTitleAccent": "Frågor",
+    "faqs": [
+      {
+        "question": "Hur avbryter jag mitt abonnemang?",
+        "answer": "Du kan hantera din prenumeration via dina App Store-inställningar. Gå till Inställningar → [Ditt namn] → Prenumerationer → Victus och välj sedan Avbryt prenumeration."
+      },
+      {
+        "question": "Hur fungerar 66-dagarsutmaningen?",
+        "answer": "Efter introduktionen genererar Victus en personlig plan baserad på dina valda pelare (disciplin, fitness, friskvård, etc.). Varje dag får du en checklista med vanor att slutföra. Att slutföra vanor ger dig XP och bygger upp din strimma."
+      },
+      {
+        "question": "Vad är XP och rankningar?",
+        "answer": "XP (Experience Points) tjänas in genom att slutföra dagliga vanor. När du samlar på dig XP går du vidare genom rangorden: Brons → Silver → Guld → Spartanskt. Varje ranking representerar din tillväxt och behärskning."
+      },
+      {
+        "question": "Hur fungerar topplistan?",
+        "answer": "Global Leaderboard visar alla Victus användare rankade efter totalt XP eller Current Streak. Det är ett sätt att tävla med krigare över hela världen och hålla sig motiverad genom vänskaplig konkurrens."
+      },
+      {
+        "question": "Min streak bröts. Går det att återställa?",
+        "answer": "Streaks är en del av att bygga upp sann disciplin och kan inte återställas. Men varje ny dag är en chans att börja om och bygga en ännu starkare serie."
+      },
+      {
+        "question": "Jag hittade en bugg. Hur rapporterar jag det?",
+        "answer": "Skicka ett e-postmeddelande till support@getvictus.com med information om problemet, inklusive din enhetsmodell och iOS-version. Vi uppskattar din hjälp med att göra Victus bättre!"
+      },
+      {
+        "question": "Är Victus tillgängligt på Android?",
+        "answer": "Victus är för närvarande endast iOS, men en Android-version är under utveckling. Maila oss för att få ett meddelande när det lanseras."
+      },
+      {
+        "question": "Hur tar jag bort mitt konto?",
+        "answer": "Du kan begära borttagning av konto från appens inställningar eller skicka e-post till support@getvictus.com. All din data kommer att raderas permanent från våra servrar."
+      }
+    ],
+    "stillNeedHelpTitle": "Behöver du fortfarande hjälp?",
+    "stillNeedHelpDescription": "Hittar du inte det du letar efter? Vårt supportteam är redo att hjälpa dig.",
+    "contactButton": "Kontakta support"
+  },
+  "privacyPage": {
+    "titlePrefix": "Sekretesspolicy och",
+    "titleAccent": "Användarvillkor",
+    "lastUpdatedLabel": "Senast uppdaterad",
+    "lastUpdatedDate": "28 oktober 2025",
+    "intro": "Välkommen till Victus. Innan du kan använda vår applikation (\"App\") är det obligatoriskt att du godkänner dessa användarvillkor och sekretesspolicy. Genom att komma åt eller använda våra tjänster bekräftar du att du har läst, förstått och accepterat dessa villkor och samtycker till att vara juridiskt bunden av dem. Om du inte godkänner dessa villkor får du inte använda vår app eller våra tjänster.",
+    "termsSectionTitle": "Användarvillkor",
+    "termsItems": [
+      {
+        "title": "1. Användning av våra tjänster",
+        "bullets": [
+          {
+            "label": "Endast personligt bruk:",
+            "text": "Våra tjänster är endast avsedda för ditt personliga, icke-kommersiellt bruk. Du är strängt förbjuden att sälja vidare, kopiera eller på annat sätt använda våra tjänster för kommersiella ändamål."
+          },
+          {
+            "label": "Programvaruskydd:",
+            "text": "Du får inte bakåtkonstruera, dekompilera, demontera eller försöka upptäcka källkoden eller underliggande algoritmer för vår app."
+          }
+        ]
+      },
+      {
+        "title": "2. Prenumerationsinformation",
+        "paragraphs": [
+          "Victus fungerar på prenumerationsbasis med fakturering på en månads- eller årscykel.",
+          "Din valda betalningsmetod kommer automatiskt att faktureras via ditt Apple App Store-konto enligt vår prenumerationsplan om du inte säger upp din prenumeration. Du är ansvarig för alla avgifter som uppstår på ditt konto.",
+          "Du kan hantera din prenumeration och stänga av automatisk förnyelse när som helst via dina iTunes-kontoinställningar."
+        ]
+      },
+      {
+        "title": "3. Friskrivningar och ansvarsbegränsning",
+        "bullets": [
+          {
+            "label": "Tjänster som tillhandahålls \"As Is\":",
+            "text": "Våra tjänster tillhandahålls på \"as is\" och \"as available\" basis. Victus frånsäger sig alla garantier, vare sig uttryckliga eller underförstådda, inklusive garantier om säljbarhet, lämplighet för ett visst ändamål och icke-intrång i den maximala utsträckning som lagen tillåter."
+          },
+          {
+            "label": "Ansvarsbegränsning:",
+            "text": "Under inga omständigheter ska Victus hållas ansvarigt för några indirekta, tillfälliga, speciella, följdskador eller straffskador som uppstår till följd av din användning eller oförmåga att använda våra tjänster. Vårt totala ansvar gentemot dig för alla skador ska inte överstiga femtio dollar ($50.00)."
+          }
+        ]
+      },
+      {
+        "title": "4. Ersättning",
+        "paragraphs": [
+          "Du samtycker till att hålla Victus, dess dotterbolag och anställda skadeslösa från alla anspråk, ansvar, skador och utgifter (inklusive rimliga advokatarvoden) som uppstår till följd av din användning av våra tjänster eller ditt brott mot dessa villkor."
+        ]
+      },
+      {
+        "title": "5. Uppsägning och ändring",
+        "bullets": [
+          {
+            "label": "Uppsägning:",
+            "text": "Vi förbehåller oss rätten att stänga av eller avsluta din åtkomst till våra tjänster när som helst, utan föregående meddelande, om du bryter mot dessa villkor."
+          },
+          {
+            "label": "Modifiering:",
+            "text": "Vi förbehåller oss rätten att uppdatera dessa villkor när som helst. Eventuella ändringar kommer att publiceras på vår webbplats, och din fortsatta användning av våra tjänster efter sådana ändringar kommer att utgöra ditt godkännande av de nya villkoren."
+          }
+        ]
+      }
+    ],
+    "privacySectionTitle": "Sekretesspolicy",
+    "privacyLead": "På Victus har vi åtagit oss att skydda din personliga information.",
+    "privacyItems": [
+      {
+        "title": "6. Informationsinsamling",
+        "paragraphs": [
+          "Vi samlar in information som du frivilligt tillhandahåller när du skapar ett konto och använder appen. Detta inkluderar:"
+        ],
+        "bullets": [
+          {
+            "label": "Kontoinformation:",
+            "text": "Din e-postadress och användarnamn."
+          },
+          {
+            "label": "Onboarding-information:",
+            "text": "Ditt åldersintervall, självutvärderat nuvarande tillstånd, vald primär dygd, identifierade primära hinder och baslinjedata."
+          },
+          {
+            "label": "Användningsdata:",
+            "text": "Information om dina interaktioner med appen, såsom spårade vanor, intjänade XP och rankningsprogression."
+          },
+          {
+            "label": "Enhetsdata:",
+            "text": "Din push-notifieringstoken (om du samtycker) och din enhetsannonseringsidentifierare (IDFA) om du ger ditt samtycke genom Apples appspårningsprompt."
+          }
+        ]
+      },
+      {
+        "title": "7. Användning av din information",
+        "paragraphs": [
+          "Vi använder din information för att:"
+        ],
+        "bullets": [
+          {
+            "text": "Tillhandahålla, driva och förbättra våra tjänster."
+          },
+          {
+            "text": "Skapa och hantera ditt konto och behandla prenumerationer."
+          },
+          {
+            "text": "Skapa din personliga 66-dagarsplan."
+          },
+          {
+            "text": "Visa dina framsteg och rankning på din profil och den offentliga topplistan."
+          },
+          {
+            "text": "Skicka pushnotiser till dig."
+          },
+          {
+            "text": "Mät effektiviteten av våra marknadsföringskampanjer."
+          }
+        ]
+      },
+      {
+        "title": "8. Utlämnande av din information",
+        "paragraphs": [
+          "Vi delar din information med pålitliga tredjepartstjänsteleverantörer för att utföra tjänster för vår räkning, inklusive:"
+        ],
+        "bullets": [
+          {
+            "label": "Backend och databas:",
+            "text": "Google Firebase"
+          },
+          {
+            "label": "Prenumerationshantering:",
+            "text": "RevenueCat"
+          },
+          {
+            "label": "Analytics:",
+            "text": "Mixpanel, Firebase Crashlytics"
+          },
+          {
+            "label": "Erkännande och reklam:",
+            "text": "AppsFlyer, Meta (Facebook), Google och TikTok"
+          }
+        ]
+      },
+      {
+        "title": "9. Datasäkerhet och lagring",
+        "paragraphs": [
+          "Vi implementerar lämpliga tekniska åtgärder för att skydda dina uppgifter. Dina uppgifter sparas så länge som ditt konto är aktivt eller som är nödvändigt för att uppfylla de syften som beskrivs i denna policy."
+        ]
+      },
+      {
+        "title": "10. Dina datarättigheter",
+        "paragraphs": [
+          "Du har rätt att:"
+        ],
+        "bullets": [
+          {
+            "text": "Få tillgång till, korrigera eller uppdatera dina personuppgifter."
+          },
+          {
+            "text": "Begär radering av ditt konto och tillhörande data från appinställningarna."
+          },
+          {
+            "text": "Styr dina spårningsinställningar för reklamsyften via meddelandet i appen eller dina iOS-inställningar."
+          }
+        ]
+      },
+      {
+        "title": "11. Barns integritet",
+        "paragraphs": [
+          "Vi samlar inte medvetet in information från eller marknadsför till barn under 13 år."
+        ]
+      },
+      {
+        "title": "12. Kontakta oss",
+        "paragraphs": [
+          "Om du har frågor om dessa villkor eller vår sekretesspolicy, vänligen kontakta oss på support@getvictus.com."
+        ]
+      }
+    ]
+  },
+  "termsPage": {
+    "titlePrefix": "Villkor för",
+    "titleAccent": "Service",
+    "lastUpdatedLabel": "Senast uppdaterad",
+    "lastUpdatedDate": "januari 2025",
+    "sections": [
+      {
+        "title": "1. Godkännande av villkor",
+        "paragraphs": [
+          "Genom att komma åt och använda mobilapplikationen Victus (\"App\") accepterar och accepterar du att vara bunden av villkoren i detta avtal. Om du inte godkänner dessa användarvillkor, använd inte appen."
+        ]
+      },
+      {
+        "title": "2. Beskrivning av tjänsten",
+        "paragraphs": [
+          "Victus är en app för vanespårning och självförbättring som ger användarna:"
+        ],
+        "bullets": [
+          {
+            "text": "Personliga 66-dagars vanebyggande planer"
+          },
+          {
+            "text": "Daglig vanespårning och framstegsövervakning"
+          },
+          {
+            "text": "Spelifierade funktioner inklusive XP, rankningar och prestationer"
+          },
+          {
+            "text": "Global leaderboard-funktion"
+          },
+          {
+            "text": "Sträckspårning och aviseringar"
+          }
+        ]
+      },
+      {
+        "title": "3. Användarkonton",
+        "paragraphs": [
+          "För att använda Victus måste du skapa ett konto. Du samtycker till:"
+        ],
+        "bullets": [
+          {
+            "text": "Ge korrekt, aktuell och fullständig information under registreringen"
+          },
+          {
+            "text": "Upprätthåll säkerheten för dina kontouppgifter"
+          },
+          {
+            "text": "Meddela oss omedelbart om obehörig åtkomst till ditt konto"
+          },
+          {
+            "text": "Var ansvarig för alla aktiviteter som sker under ditt konto"
+          }
+        ]
+      },
+      {
+        "title": "4. Prenumeration och betalning",
+        "paragraphs": [
+          "Victus erbjuder prenumerationsbaserad åtkomst med månatliga och årliga faktureringsalternativ.",
+          "Prenumerationer faktureras via ditt Apple App Store-konto. Betalning debiteras vid köpbekräftelse och förnyas automatiskt om inte automatisk förnyelse stängs av minst 24 timmar före slutet av den aktuella perioden.",
+          "Du kan säga upp din prenumeration via dina kontoinställningar i App Store. Uppsägningen träder i kraft i slutet av den aktuella faktureringsperioden."
+        ]
+      },
+      {
+        "title": "5. Användarbeteende",
+        "paragraphs": [
+          "Du samtycker till att inte:"
+        ],
+        "bullets": [
+          {
+            "text": "Använd appen för olagliga ändamål eller i strid med gällande lagar"
+          },
+          {
+            "text": "Försök att få obehörig åtkomst till någon del av appen"
+          },
+          {
+            "text": "Störa eller störa appen eller anslutna servrar"
+          },
+          {
+            "text": "Använd automatiserade system för att komma åt appen"
+          },
+          {
+            "text": "Imitera någon person eller enhet"
+          },
+          {
+            "text": "Trakassera, missbruka eller skada andra användare"
+          },
+          {
+            "text": "Manipulera topprankningar på bedrägliga sätt"
+          }
+        ]
+      },
+      {
+        "title": "6. Topplistor och offentlig information",
+        "paragraphs": [
+          "Genom att använda Victus förstår och godkänner du att ditt användarnamn, XP och streakinformation kan visas på den offentliga Global Leaderboard."
+        ]
+      },
+      {
+        "title": "7. Immateriella rättigheter",
+        "paragraphs": [
+          "Appen och dess ursprungliga innehåll, funktioner och funktionalitet ägs av Victus och skyddas av immateriella lagar. Du får inte kopiera, modifiera, distribuera, sälja eller leasa någon del av vår app."
+        ]
+      },
+      {
+        "title": "8. Friskrivning från garantier",
+        "paragraphs": [
+          "Appen tillhandahålls \"as is\" och __AVAILABLE_2__ utan garantier av något slag, varken uttryckliga eller underförstådda. Victus garanterar inte att appen kommer att vara oavbruten, säker eller felfri."
+        ]
+      },
+      {
+        "title": "9. Ansvarsbegränsning",
+        "paragraphs": [
+          "Under inga omständigheter ska Victus, dess direktörer, anställda eller agenter hållas ansvariga för några indirekta, tillfälliga, speciella, följdskador eller straffskador som uppstår från din användning av appen."
+        ]
+      },
+      {
+        "title": "10. Uppsägning av konto",
+        "paragraphs": [
+          "Vi förbehåller oss rätten att avsluta eller stänga av ditt konto, utan föregående meddelande, för beteende som bryter mot dessa användarvillkor eller på annat sätt är skadligt."
+        ]
+      },
+      {
+        "title": "11. Ändringar av villkor",
+        "paragraphs": [
+          "Vi förbehåller oss rätten att när som helst ändra dessa villkor. Vi kommer att meddela användare om väsentliga ändringar genom att uppdatera det senaste uppdaterade datumet. Fortsatt användning av appen efter ändringar utgör godkännande av de ändrade villkoren."
+        ]
+      },
+      {
+        "title": "12. Tillämplig lag",
+        "paragraphs": [
+          "Dessa villkor ska styras av och tolkas i enlighet med lagarna i USA, utan hänsyn till lagkonflikter."
+        ]
+      },
+      {
+        "title": "13. Kontaktinformation",
+        "paragraphs": [
+          "Om du har några frågor om dessa användarvillkor, vänligen kontakta oss på support@getvictus.com."
+        ]
+      }
+    ]
+  }
+}

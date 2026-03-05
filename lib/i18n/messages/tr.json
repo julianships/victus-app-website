@@ -1,0 +1,399 @@
+{
+  "metadata": {
+    "defaultTitle": "Victus - Başarılı Bir Yaşam Tarzına Giden 66 Gün",
+    "defaultDescription": "Oyunlaştırılmış kişisel ustalık yoluyla kırılmaz bir disiplin oluşturun. Alışkanlıkları takip edin, XP kazanın, skor tablolarında tırmanın ve kendi yolculuğunuzun kahramanı olun.",
+    "supportTitle": "Destek - Victus",
+    "supportDescription": "Victus ile ilgili yardım alın. Yardım için destek ekibimizle iletişime geçin.",
+    "privacyTitle": "Gizlilik Politikası ve Hizmet Şartları - Victus",
+    "privacyDescription": "Victus uygulamasına ilişkin Gizlilik Politikası ve Hizmet Şartları",
+    "termsTitle": "Hizmet Şartları - Victus",
+    "termsDescription": "Victus uygulamasına ilişkin Hizmet Şartları"
+  },
+  "navigation": {
+    "support": "Destek",
+    "privacy": "Mahremiyet",
+    "download": "İNDİRMEK"
+  },
+  "footer": {
+    "tagline": "Muzaffer Bir Yaşam Tarzına 66 Gün. Oyunlaştırılmış kişisel ustalık yoluyla kırılmaz bir disiplin oluşturun.",
+    "product": "Ürün",
+    "features": "Özellikler",
+    "support": "Destek",
+    "legal": "Yasal",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Hizmet Şartları",
+    "rightsReserved": "Her hakkı saklıdır."
+  },
+  "home": {
+    "headlineLine1": "Sürüklenmeyi bırak.",
+    "headlineLine2": "İnşa etmeye başlayın.",
+    "subtitle": "Disiplini geliştirmek, küresel bir lejyonla rekabet etmek ve zafer dolu bir yaşam inşa etmek için 66 günlük potanız.",
+    "appStoreAlt": "App Store'dan indirin",
+    "screenshotAlt": "Victus uygulama"
+  },
+  "supportPage": {
+    "titlePrefix": "Destek",
+    "titleAccent": "Merkez",
+    "subtitle": "Yardıma mı ihtiyacınız var? Zafere giden yolculuğunuzda sizi desteklemek için buradayız.",
+    "contactTitle": "Bize Ulaşın",
+    "emailSupportTitle": "E-posta Desteği",
+    "emailSupportDescription": "Uygulama sorunları, özellik istekleri veya genel sorular için",
+    "faqTitlePrefix": "Sık Sorulan Sorular",
+    "faqTitleAccent": "Sorular",
+    "faqs": [
+      {
+        "question": "Aboneliğimi nasıl iptal edebilirim?",
+        "answer": "Aboneliğinizi App Store ayarlarınızdan yönetebilirsiniz. Ayarlar → [Adınız] → Abonelikler → Victus seçeneğine gidin ve ardından Aboneliği İptal Et'i seçin."
+      },
+      {
+        "question": "66 günlük mücadele nasıl işliyor?",
+        "answer": "Katılımın ardından Victus, seçtiğiniz Temellere (Disiplin, Fitness, Sağlıklı Yaşam vb.) göre kişiselleştirilmiş bir plan oluşturur. Her gün, tamamlamanız gereken alışkanlıkların bir kontrol listesini alacaksınız. Alışkanlıkları tamamlamak size XP kazandırır ve serinizi geliştirir."
+      },
+      {
+        "question": "XP ve Sıralamalar nedir?",
+        "answer": "XP (Deneyim Puanı) günlük alışkanlıkların tamamlanmasıyla kazanılır. XP biriktirdikçe kademeler arasında ilerlersiniz: Bronz → Gümüş → Altın → Spartalı. Her rütbe büyümenizi ve ustalığınızı temsil eder."
+      },
+      {
+        "question": "Skor tablosu nasıl çalışır?",
+        "answer": "Global Skor Tablosu, tüm Victus kullanıcılarının Toplam XP veya Mevcut Seriye göre sıralandığını gösterir. Bu, dünya çapındaki savaşçılarla rekabet etmenin ve dostça rekabet yoluyla motive kalmanın bir yoludur."
+      },
+      {
+        "question": "Benim çizgim bozuldu. Geri yüklenebilir mi?",
+        "answer": "Çizgiler gerçek disiplin oluşturmanın bir parçasıdır ve geri getirilemez. Ancak her yeni gün, yeni bir başlangıç ​​yapmak ve daha da güçlü bir seri oluşturmak için bir şanstır."
+      },
+      {
+        "question": "Bir hata buldum. Bunu nasıl rapor edebilirim?",
+        "answer": "Lütfen cihazınızın modeli ve iOS sürümü de dahil olmak üzere sorunla ilgili ayrıntıları içeren support@getvictus.com adresine e-posta gönderin. Victus markasını daha iyi hale getirme konusundaki yardımınız için teşekkür ederiz!"
+      },
+      {
+        "question": "Victus Android'de mevcut mu?",
+        "answer": "Victus şu anda yalnızca iOS'ta mevcuttur, ancak Android sürümü geliştirme aşamasındadır. Başladığında haberdar olmak için bize e-posta gönderin."
+      },
+      {
+        "question": "Hesabımı nasıl silerim?",
+        "answer": "Uygulamanın ayarlarından hesabın silinmesini talep edebilir veya support@getvictus.com adresine e-posta gönderebilirsiniz. Tüm verileriniz sunucularımızdan kalıcı olarak silinecektir."
+      }
+    ],
+    "stillNeedHelpTitle": "Hala Yardıma mı İhtiyacınız Var?",
+    "stillNeedHelpDescription": "Aradığınızı bulamıyor musunuz? Destek ekibimiz size yardımcı olmaya hazır.",
+    "contactButton": "Destek Ekibiyle İletişime Geçin"
+  },
+  "privacyPage": {
+    "titlePrefix": "Gizlilik Politikası ve",
+    "titleAccent": "Hizmet Şartları",
+    "lastUpdatedLabel": "Son Güncelleme",
+    "lastUpdatedDate": "28 Ekim 2025",
+    "intro": "Victus'a hoş geldiniz. Uygulamamızı (\"App\") kullanmadan önce bu Hizmet Şartlarını ve Gizlilik Politikasını kabul etmeniz zorunludur. Hizmetlerimize erişerek veya bunları kullanarak, bu koşulları okuduğunuzu, anladığınızı ve kabul ettiğinizi ve yasal olarak bunlara bağlı kalmayı kabul ettiğinizi onaylamış olursunuz. Bu şartları kabul etmiyorsanız Uygulamamızı veya hizmetlerimizi kullanmamalısınız.",
+    "termsSectionTitle": "Hizmet Şartları",
+    "termsItems": [
+      {
+        "title": "1. Hizmetlerimizin Kullanımı",
+        "bullets": [
+          {
+            "label": "Yalnızca Kişisel Kullanım:",
+            "text": "Hizmetlerimiz yalnızca kişisel, ticari olmayan kullanımınıza yöneliktir. Hizmetlerimizi ticari amaçlarla yeniden satmanız, kopyalamanız veya başka bir şekilde kullanmanız kesinlikle yasaktır."
+          },
+          {
+            "label": "Yazılım Koruması:",
+            "text": "Uygulamamızın kaynak kodunu veya temel algoritmalarını tersine mühendislik yapamaz, kaynak koda dönüştüremez, parçalara ayıramaz veya keşfetmeye çalışamazsınız."
+          }
+        ]
+      },
+      {
+        "title": "2. Abonelik Ayrıntıları",
+        "paragraphs": [
+          "Victus abonelik esasına göre çalışır ve faturalandırma aylık veya yıllık bir döngüde gerçekleşir.",
+          "Aboneliğinizi iptal etmediğiniz sürece, seçtiğiniz ödeme yöntemi, abonelik planımıza göre Apple App Store hesabınız üzerinden otomatik olarak faturalandırılacaktır. Hesabınıza yapılan tüm masraflardan siz sorumlusunuz.",
+          "Aboneliğinizi istediğiniz zaman iTunes Hesap Ayarlarınızdan yönetebilir ve otomatik yenilemeyi kapatabilirsiniz."
+        ]
+      },
+      {
+        "title": "3. Sorumluluk Reddi ve Sorumluluğun Sınırlandırılması",
+        "bullets": [
+          {
+            "label": "Sağlanan Hizmetler \"As Is\":",
+            "text": "Hizmetlerimiz \"as is\" ve \"as available\" esasına göre sağlanmaktadır. Victus, yasaların izin verdiği azami ölçüde, ticarete elverişlilik, belirli bir amaca uygunluk ve ihlal etmeme garantileri de dahil olmak üzere açık veya zımni tüm garantileri reddeder."
+          },
+          {
+            "label": "Sorumluluğun Sınırlandırılması:",
+            "text": "Victus hiçbir koşulda hizmetlerimizi kullanmanızdan veya kullanamamanızdan kaynaklanan dolaylı, arızi, özel, sonuç olarak ortaya çıkan veya cezai zararlardan sorumlu olmayacaktır. Tüm zararlar için size karşı toplam sorumluluğumuz elli doları ($50.00) geçmeyecektir."
+          }
+        ]
+      },
+      {
+        "title": "4. Tazminat",
+        "paragraphs": [
+          "Hizmetlerimizi kullanmanızdan veya bu Şartları ihlal etmenizden kaynaklanan her türlü talep, yükümlülük, zarar ve harcamaya (makul avukat ücretleri dahil) karşı Victus, bağlı kuruluşları ve çalışanlarını tazmin etmeyi ve masun tutmayı kabul edersiniz."
+        ]
+      },
+      {
+        "title": "5. Fesih ve Değişiklik",
+        "bullets": [
+          {
+            "label": "Fesih:",
+            "text": "Bu Koşulları ihlal etmeniz durumunda, hizmetlerimize erişiminizi önceden bildirimde bulunmaksızın herhangi bir zamanda askıya alma veya sonlandırma hakkını saklı tutarız."
+          },
+          {
+            "label": "Değişiklik:",
+            "text": "Bu Koşulları herhangi bir zamanda güncelleme hakkını saklı tutuyoruz. Herhangi bir değişiklik web sitemizde yayınlanacak olup, bu tür değişikliklerden sonra hizmetlerimizi kullanmaya devam etmeniz yeni şartları kabul ettiğiniz anlamına gelecektir."
+          }
+        ]
+      }
+    ],
+    "privacySectionTitle": "Gizlilik Politikası",
+    "privacyLead": "Victus olarak kişisel bilgilerinizi korumayı taahhüt ediyoruz.",
+    "privacyItems": [
+      {
+        "title": "6. Bilgi Toplama",
+        "paragraphs": [
+          "Bir hesap oluşturduğunuzda ve Uygulamayı kullandığınızda gönüllü olarak sağladığınız bilgileri topluyoruz. Bu şunları içerir:"
+        ],
+        "bullets": [
+          {
+            "label": "Hesap Bilgileri:",
+            "text": "E-posta adresiniz ve kullanıcı adınız."
+          },
+          {
+            "label": "Katılım Bilgileri:",
+            "text": "Yaş aralığınız, kendi değerlendirdiğiniz mevcut durum, seçilen birincil erdem, belirlenen birincil engel ve temel alışkanlık verileri."
+          },
+          {
+            "label": "Kullanım Verileri:",
+            "text": "Takip edilen alışkanlıklar, kazanılan XP ve sıralama ilerlemesi gibi Uygulama ile etkileşimleriniz hakkındaki bilgiler."
+          },
+          {
+            "label": "Cihaz Verileri:",
+            "text": "Anlık bildirim jetonunuz (izin veriyorsanız) ve Apple'ın Uygulama İzleme Şeffaflığı istemi aracılığıyla izin verdiyseniz cihazınızın reklam tanımlayıcısı (IDFA)."
+          }
+        ]
+      },
+      {
+        "title": "7. Bilgilerinizin Kullanımı",
+        "paragraphs": [
+          "Bilgilerinizi aşağıdaki amaçlarla kullanırız:"
+        ],
+        "bullets": [
+          {
+            "text": "Hizmetlerimizi sağlayın, çalıştırın ve iyileştirin."
+          },
+          {
+            "text": "Hesabınızı oluşturun ve yönetin ve abonelikleri işleyin."
+          },
+          {
+            "text": "Kişiselleştirilmiş 66 günlük planınızı oluşturun."
+          },
+          {
+            "text": "İlerlemenizi ve sıralamanızı profilinizde ve herkese açık skor tablosunda görüntüleyin."
+          },
+          {
+            "text": "Size anlık bildirimler gönderin."
+          },
+          {
+            "text": "Pazarlama kampanyalarımızın etkinliğini ölçün."
+          }
+        ]
+      },
+      {
+        "title": "8. Bilgilerinizin Açıklanması",
+        "paragraphs": [
+          "Bilgilerinizi, aşağıdakiler de dahil olmak üzere bizim adımıza hizmetler gerçekleştirmek için güvenilir üçüncü taraf hizmet sağlayıcılarla paylaşırız:"
+        ],
+        "bullets": [
+          {
+            "label": "Arka Uç ve Veritabanı:",
+            "text": "Google Firebase"
+          },
+          {
+            "label": "Abonelik Yönetimi:",
+            "text": "Gelir Kedisi"
+          },
+          {
+            "label": "Analitik:",
+            "text": "Mixpanel, Firebase Crashlytics"
+          },
+          {
+            "label": "Atıf ve Reklam:",
+            "text": "AppsFlyer, Meta (Facebook), Google ve TikTok"
+          }
+        ]
+      },
+      {
+        "title": "9. Veri Güvenliği ve Saklanması",
+        "paragraphs": [
+          "Verilerinizi korumak için uygun teknik önlemleri uyguluyoruz. Verileriniz, hesabınız aktif olduğu sürece veya bu politikada belirtilen amaçların yerine getirilmesi için gerekli olduğu sürece saklanır."
+        ]
+      },
+      {
+        "title": "10. Veri Haklarınız",
+        "paragraphs": [
+          "Şunları yapma hakkına sahipsiniz:"
+        ],
+        "bullets": [
+          {
+            "text": "Kişisel verilerinize erişin, bunları düzeltin veya güncelleyin."
+          },
+          {
+            "text": "Uygulama ayarlarından hesabınızın ve ilişkili verilerin silinmesini talep edin."
+          },
+          {
+            "text": "Reklam amaçlı izleme tercihlerinizi uygulama içi istem veya iOS ayarlarınız aracılığıyla kontrol edin."
+          }
+        ]
+      },
+      {
+        "title": "11. Çocukların Gizliliği",
+        "paragraphs": [
+          "13 yaşın altındaki çocuklardan bilerek bilgi toplamıyoruz veya onlara pazarlamıyoruz."
+        ]
+      },
+      {
+        "title": "12. Bize Ulaşın",
+        "paragraphs": [
+          "Bu Koşullar veya Gizlilik Politikamız hakkında sorularınız varsa lütfen support@getvictus.com adresinden bizimle iletişime geçin."
+        ]
+      }
+    ]
+  },
+  "termsPage": {
+    "titlePrefix": "Şartları",
+    "titleAccent": "Hizmet",
+    "lastUpdatedLabel": "Son Güncelleme",
+    "lastUpdatedDate": "Ocak 2025",
+    "sections": [
+      {
+        "title": "1. Şartların Kabulü",
+        "paragraphs": [
+          "Victus mobil uygulamasına (\"App\") erişerek ve onu kullanarak, bu sözleşmenin şartlarına bağlı kalmayı kabul etmiş ve kabul etmiş olursunuz. Bu Hizmet Koşullarını kabul etmiyorsanız lütfen Uygulamayı kullanmayın."
+        ]
+      },
+      {
+        "title": "2. Hizmet Tanımı",
+        "paragraphs": [
+          "Victus, kullanıcılara aşağıdakileri sağlayan bir alışkanlık izleme ve kişisel gelişim uygulamasıdır:"
+        ],
+        "bullets": [
+          {
+            "text": "Kişiselleştirilmiş 66 günlük alışkanlık oluşturma planları"
+          },
+          {
+            "text": "Günlük alışkanlık takibi ve ilerleme takibi"
+          },
+          {
+            "text": "XP, rütbeler ve başarılar dahil oyunlaştırılmış özellikler"
+          },
+          {
+            "text": "Küresel skor tablosu işlevi"
+          },
+          {
+            "text": "Çizgi takibi ve bildirimler"
+          }
+        ]
+      },
+      {
+        "title": "3. Kullanıcı Hesapları",
+        "paragraphs": [
+          "Victus kullanmak için bir hesap oluşturmalısınız. Aşağıdakileri kabul ediyorsunuz:"
+        ],
+        "bullets": [
+          {
+            "text": "Kayıt sırasında doğru, güncel ve eksiksiz bilgi verin"
+          },
+          {
+            "text": "Hesap kimlik bilgilerinizin güvenliğini koruyun"
+          },
+          {
+            "text": "Hesabınıza izinsiz erişim durumunda bizi derhal bilgilendirin"
+          },
+          {
+            "text": "Hesabınız altında gerçekleşen tüm faaliyetlerden sorumlu olun"
+          }
+        ]
+      },
+      {
+        "title": "4. Abonelik ve Ödeme",
+        "paragraphs": [
+          "Victus aylık ve yıllık faturalandırma seçenekleriyle aboneliğe dayalı erişim sunar.",
+          "Abonelikler Apple App Store hesabınız üzerinden faturalandırılır. Ödeme, satın alma onayı sırasında tahsil edilir ve otomatik yenileme, cari dönemin bitiminden en az 24 saat önce kapatılmadığı sürece otomatik olarak yenilenir.",
+          "Aboneliğinizi App Store hesap ayarlarınızdan iptal edebilirsiniz. İptal, geçerli fatura döneminin sonunda geçerli olur."
+        ]
+      },
+      {
+        "title": "5. Kullanıcı Davranışı",
+        "paragraphs": [
+          "Aşağıdakileri yapmamayı kabul edersiniz:"
+        ],
+        "bullets": [
+          {
+            "text": "Uygulamayı yasa dışı amaçlarla veya yürürlükteki yasaları ihlal edecek şekilde kullanmak"
+          },
+          {
+            "text": "Uygulamanın herhangi bir kısmına yetkisiz erişim sağlamaya çalışmak"
+          },
+          {
+            "text": "Uygulamaya veya bağlı sunuculara müdahale edin veya bunları bozun"
+          },
+          {
+            "text": "Uygulamaya erişmek için otomatik sistemleri kullanın"
+          },
+          {
+            "text": "Herhangi bir kişi veya varlığın kimliğine bürünme"
+          },
+          {
+            "text": "Diğer kullanıcıları taciz etmek, kötüye kullanmak veya onlara zarar vermek"
+          },
+          {
+            "text": "Liderlik sıralamasını hileli yöntemlerle manipüle etmek"
+          }
+        ]
+      },
+      {
+        "title": "6. Skor Tablosu ve Kamuya Açık Bilgiler",
+        "paragraphs": [
+          "Victus kullanarak kullanıcı adınızın, XP ve galibiyet serisi bilgilerinizin herkese açık Küresel Skor Tablosunda görüntülenebileceğini anlıyor ve kabul ediyorsunuz."
+        ]
+      },
+      {
+        "title": "7. Fikri Mülkiyet",
+        "paragraphs": [
+          "Uygulama ve orijinal içeriği, özellikleri ve işlevleri Victus şirketine aittir ve fikri mülkiyet yasalarıyla korunmaktadır. Uygulamamızın herhangi bir bölümünü kopyalayamaz, değiştiremez, dağıtamaz, satamaz veya kiralayamazsınız."
+        ]
+      },
+      {
+        "title": "8. Garantilerin Reddi",
+        "paragraphs": [
+          "Uygulama, açık veya zımni hiçbir garanti olmaksızın \"as is\" ve \"as available\" sağlanmaktadır. Victus, Uygulamanın kesintisiz, güvenli veya hatasız olacağını garanti etmez."
+        ]
+      },
+      {
+        "title": "9. Sorumluluğun Sınırlandırılması",
+        "paragraphs": [
+          "Hiçbir durumda Victus, yöneticileri, çalışanları veya temsilcileri, Uygulamayı kullanımınızdan kaynaklanan hiçbir dolaylı, arızi, özel, sonuç olarak ortaya çıkan veya cezai zarardan sorumlu tutulamaz."
+        ]
+      },
+      {
+        "title": "10. Hesabın Feshi",
+        "paragraphs": [
+          "Bu Hizmet Koşullarını ihlal eden veya başka bir şekilde zararlı olan davranışlar nedeniyle hesabınızı bildirimde bulunmaksızın sonlandırma veya askıya alma hakkını saklı tutuyoruz."
+        ]
+      },
+      {
+        "title": "11. Şartlarda Değişiklikler",
+        "paragraphs": [
+          "Bu şartları herhangi bir zamanda değiştirme hakkını saklı tutuyoruz. Son güncelleme tarihini güncelleyerek önemli değişiklikleri kullanıcılara bildireceğiz. Değişikliklerden sonra Uygulamanın kullanılmaya devam edilmesi, değiştirilen şartların kabul edildiği anlamına gelir."
+        ]
+      },
+      {
+        "title": "12. Geçerli Kanun",
+        "paragraphs": [
+          "Bu Şartlar, kanun hükümleri ihtilafı dikkate alınmaksızın, Amerika Birleşik Devletleri kanunlarına göre yönetilecek ve yorumlanacaktır."
+        ]
+      },
+      {
+        "title": "13. İletişim Bilgileri",
+        "paragraphs": [
+          "Bu Hizmet Şartları hakkında herhangi bir sorunuz varsa lütfen support@getvictus.com adresinden bizimle iletişime geçin."
+        ]
+      }
+    ]
+  }
+}

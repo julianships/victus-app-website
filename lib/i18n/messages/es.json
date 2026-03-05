@@ -1,0 +1,399 @@
+{
+  "metadata": {
+    "defaultTitle": "Victus - 66 días para un estilo de vida victorioso",
+    "defaultDescription": "Desarrolle una disciplina inquebrantable a través del autodominio gamificado. Realice un seguimiento de sus hábitos, gane XP, ascienda en las tablas de clasificación y conviértase en el héroe de su propio viaje.",
+    "supportTitle": "Soporte - Victus",
+    "supportDescription": "Obtenga ayuda con Victus. Póngase en contacto con nuestro equipo de soporte para obtener ayuda.",
+    "privacyTitle": "Política de privacidad y términos de servicio - Victus",
+    "privacyDescription": "Política de privacidad y condiciones de servicio para la aplicación Victus",
+    "termsTitle": "Términos de servicio - Victus",
+    "termsDescription": "Términos de servicio para la aplicación Victus"
+  },
+  "navigation": {
+    "support": "Apoyo",
+    "privacy": "Privacidad",
+    "download": "DESCARGAR"
+  },
+  "footer": {
+    "tagline": "66 días para un estilo de vida victorioso. Desarrolle una disciplina inquebrantable a través del autodominio gamificado.",
+    "product": "Producto",
+    "features": "Características",
+    "support": "Apoyo",
+    "legal": "Legal",
+    "privacyPolicy": "política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "rightsReserved": "Reservados todos los derechos."
+  },
+  "home": {
+    "headlineLine1": "Deja de desviarte.",
+    "headlineLine2": "Empiece a construir.",
+    "subtitle": "Tu crisol de 66 días para forjar la disciplina, competir con una legión global y construir una vida de victoria.",
+    "appStoreAlt": "Descargar en la tienda de aplicaciones",
+    "screenshotAlt": "Aplicación Victus"
+  },
+  "supportPage": {
+    "titlePrefix": "Apoyo",
+    "titleAccent": "Centro",
+    "subtitle": "¿Necesitar ayuda? Estamos aquí para apoyarlo en su viaje hacia la victoria.",
+    "contactTitle": "Contáctenos",
+    "emailSupportTitle": "Soporte por correo electrónico",
+    "emailSupportDescription": "Para problemas con la aplicación, solicitudes de funciones o consultas generales",
+    "faqTitlePrefix": "Preguntas frecuentes",
+    "faqTitleAccent": "Preguntas",
+    "faqs": [
+      {
+        "question": "¿Cómo cancelo mi suscripción?",
+        "answer": "Puede administrar su suscripción a través de la configuración de su App Store. Vaya a Configuración → [Su nombre] → Suscripciones → Victus, luego seleccione Cancelar suscripción."
+      },
+      {
+        "question": "¿Cómo funciona el desafío de los 66 días?",
+        "answer": "Después de la incorporación, Victus genera un plan personalizado basado en los pilares seleccionados (disciplina, fitness, bienestar, etc.). Cada día, recibirás una lista de verificación de hábitos que debes completar. Completar hábitos te otorga XP y fortalece tu racha."
+      },
+      {
+        "question": "¿Qué son XP y los rangos?",
+        "answer": "XP (Puntos de experiencia) se obtienen al completar hábitos diarios. A medida que acumulas XP, progresas en los rangos: Bronce → Plata → Oro → Espartano. Cada rango representa tu crecimiento y dominio."
+      },
+      {
+        "question": "¿Cómo funciona la tabla de clasificación?",
+        "answer": "La tabla de clasificación global muestra todos los usuarios Victus clasificados por XP total o racha actual. Es una forma de competir con guerreros de todo el mundo y mantenerse motivado a través de una competencia amistosa."
+      },
+      {
+        "question": "Mi racha se rompió. ¿Se puede restaurar?",
+        "answer": "Las rachas son parte de la construcción de una verdadera disciplina y no se pueden restaurar. Sin embargo, cada nuevo día es una oportunidad para empezar de nuevo y construir una racha aún más sólida."
+      },
+      {
+        "question": "Encontré un error. ¿Cómo lo reporto?",
+        "answer": "Envíe un correo electrónico a support@getvictus.com con detalles sobre el problema, incluido el modelo de su dispositivo y la versión de iOS. ¡Apreciamos su ayuda para mejorar Victus!"
+      },
+      {
+        "question": "¿Está Victus disponible en Android?",
+        "answer": "Victus actualmente es solo para iOS, pero se está desarrollando una versión para Android. Envíenos un correo electrónico para recibir una notificación cuando se lance."
+      },
+      {
+        "question": "¿Cómo elimino mi cuenta?",
+        "answer": "Puede solicitar la eliminación de la cuenta desde la configuración de la aplicación o enviar un correo electrónico a support@getvictus.com. Todos sus datos serán eliminados permanentemente de nuestros servidores."
+      }
+    ],
+    "stillNeedHelpTitle": "¿Aún necesitas ayuda?",
+    "stillNeedHelpDescription": "¿No encuentras lo que estás buscando? Nuestro equipo de soporte está listo para ayudarle.",
+    "contactButton": "Contactar con soporte"
+  },
+  "privacyPage": {
+    "titlePrefix": "Política de privacidad y",
+    "titleAccent": "Términos de servicio",
+    "lastUpdatedLabel": "Última actualización",
+    "lastUpdatedDate": "28 de octubre de 2025",
+    "intro": "Bienvenido a Victus. Antes de poder utilizar nuestra aplicación (la \"App\"), es obligatorio que acepte estos Términos de servicio y Política de privacidad. Al acceder o utilizar nuestros servicios, usted confirma que ha leído, comprendido y aceptado estos términos y acepta estar legalmente sujeto a ellos. Si no está de acuerdo con estos términos, no debe utilizar nuestra aplicación o nuestros servicios.",
+    "termsSectionTitle": "Términos de servicio",
+    "termsItems": [
+      {
+        "title": "1. Uso de Nuestros Servicios",
+        "bullets": [
+          {
+            "label": "Sólo para uso personal:",
+            "text": "Nuestros servicios están destinados únicamente para su uso personal y no comercial. Tiene estrictamente prohibido revender, copiar o utilizar nuestros servicios con fines comerciales."
+          },
+          {
+            "label": "Protección de software:",
+            "text": "No puede realizar ingeniería inversa, descompilar, desensamblar ni intentar descubrir el código fuente o los algoritmos subyacentes de nuestra Aplicación."
+          }
+        ]
+      },
+      {
+        "title": "2. Detalles de la suscripción",
+        "paragraphs": [
+          "Victus opera mediante suscripción y la facturación se realiza en un ciclo mensual o anual.",
+          "El método de pago elegido se facturará automáticamente a través de su cuenta de Apple App Store de acuerdo con nuestro plan de suscripción, a menos que cancele su suscripción. Usted es responsable de todos los cargos incurridos en su cuenta.",
+          "Puede administrar su suscripción y desactivar la renovación automática en cualquier momento a través de la configuración de su cuenta de iTunes."
+        ]
+      },
+      {
+        "title": "3. Descargos de responsabilidad y limitación de responsabilidad",
+        "bullets": [
+          {
+            "label": "Servicios prestados \"As Is\":",
+            "text": "Nuestros servicios se brindan sobre la base \"as is\" y \"as available\". En la medida máxima permitida por la ley, Victus renuncia a todas las garantías, ya sean expresas o implícitas, incluidas las garantías de comerciabilidad, idoneidad para un propósito particular y no infracción."
+          },
+          {
+            "label": "Limitación de responsabilidad:",
+            "text": "Bajo ninguna circunstancia Victus será responsable de ningún daño indirecto, incidental, especial, consecuente o punitivo que surja de su uso o imposibilidad de utilizar nuestros servicios. Nuestra responsabilidad total hacia usted por todos los daños no excederá los cincuenta dólares (__DINERO_0__)."
+          }
+        ]
+      },
+      {
+        "title": "4. Indemnización",
+        "paragraphs": [
+          "Usted acepta indemnizar y eximir de responsabilidad a Victus, sus afiliados y empleados de cualquier reclamo, responsabilidad, daño y gasto (incluidos los honorarios razonables de abogados) que surjan de su uso de nuestros servicios o su incumplimiento de estos Términos."
+        ]
+      },
+      {
+        "title": "5. Terminación y Modificación",
+        "bullets": [
+          {
+            "label": "Terminación:",
+            "text": "Nos reservamos el derecho de suspender o cancelar su acceso a nuestros servicios en cualquier momento, sin previo aviso, si viola estos Términos."
+          },
+          {
+            "label": "Modificación:",
+            "text": "Nos reservamos el derecho de actualizar estos Términos en cualquier momento. Cualquier cambio se publicará en nuestro sitio web y su uso continuado de nuestros servicios después de dichos cambios constituirá su aceptación de los nuevos términos."
+          }
+        ]
+      }
+    ],
+    "privacySectionTitle": "política de privacidad",
+    "privacyLead": "En Victus, estamos comprometidos a salvaguardar su información personal.",
+    "privacyItems": [
+      {
+        "title": "6. Recopilación de información",
+        "paragraphs": [
+          "Recopilamos información que usted proporciona voluntariamente cuando crea una cuenta y utiliza la Aplicación. Esto incluye:"
+        ],
+        "bullets": [
+          {
+            "label": "Información de la cuenta:",
+            "text": "Su dirección de correo electrónico y nombre de usuario."
+          },
+          {
+            "label": "Información de incorporación:",
+            "text": "Su rango de edad, estado actual autoevaluado, virtud principal elegida, obstáculo principal identificado y datos básicos de hábitos."
+          },
+          {
+            "label": "Datos de uso:",
+            "text": "Información sobre sus interacciones con la aplicación, como los hábitos registrados, los XP obtenidos y la progresión de rango."
+          },
+          {
+            "label": "Datos del dispositivo:",
+            "text": "Su token de notificación push (si da su consentimiento) y el identificador de publicidad de su dispositivo (IDFA) si da su consentimiento a través del mensaje de Transparencia de seguimiento de aplicaciones de Apple."
+          }
+        ]
+      },
+      {
+        "title": "7. Uso de su información",
+        "paragraphs": [
+          "Usamos su información para:"
+        ],
+        "bullets": [
+          {
+            "text": "Proporcionar, operar y mejorar nuestros servicios."
+          },
+          {
+            "text": "Crea y administra tu cuenta y procesa suscripciones."
+          },
+          {
+            "text": "Genera tu plan personalizado de 66 días."
+          },
+          {
+            "text": "Muestra tu progreso y clasificación en tu perfil y en la tabla de clasificación pública."
+          },
+          {
+            "text": "Enviarle notificaciones push."
+          },
+          {
+            "text": "Medir la efectividad de nuestras campañas de marketing."
+          }
+        ]
+      },
+      {
+        "title": "8. Divulgación de su información",
+        "paragraphs": [
+          "Compartimos su información con proveedores de servicios externos confiables para realizar servicios en nuestro nombre, que incluyen:"
+        ],
+        "bullets": [
+          {
+            "label": "Backend y base de datos:",
+            "text": "Base de fuego de Google"
+          },
+          {
+            "label": "Gestión de suscripciones:",
+            "text": "IngresosCat"
+          },
+          {
+            "label": "Analítica:",
+            "text": "Panel mixto, Crashlytics de Firebase"
+          },
+          {
+            "label": "Atribución y publicidad:",
+            "text": "AppsFlyer, Meta (Facebook), Google y TikTok"
+          }
+        ]
+      },
+      {
+        "title": "9. Seguridad y retención de datos",
+        "paragraphs": [
+          "Implementamos medidas técnicas apropiadas para proteger sus datos. Sus datos se conservan mientras su cuenta esté activa o según sea necesario para cumplir con los propósitos descritos en esta política."
+        ]
+      },
+      {
+        "title": "10. Sus derechos sobre los datos",
+        "paragraphs": [
+          "Tienes derecho a:"
+        ],
+        "bullets": [
+          {
+            "text": "Acceder, rectificar o actualizar sus datos personales."
+          },
+          {
+            "text": "Solicite la eliminación de su cuenta y los datos asociados desde la configuración de la aplicación."
+          },
+          {
+            "text": "Controle sus preferencias de seguimiento con fines publicitarios a través del mensaje en la aplicación o su configuración de iOS."
+          }
+        ]
+      },
+      {
+        "title": "11. Privacidad de los niños",
+        "paragraphs": [
+          "No recopilamos intencionalmente información ni comercializamos con niños menores de 13 años."
+        ]
+      },
+      {
+        "title": "12. Contáctenos",
+        "paragraphs": [
+          "Si tiene preguntas sobre estos Términos o nuestra Política de privacidad, comuníquese con nosotros al support@getvictus.com."
+        ]
+      }
+    ]
+  },
+  "termsPage": {
+    "titlePrefix": "Términos de",
+    "titleAccent": "Servicio",
+    "lastUpdatedLabel": "Última actualización",
+    "lastUpdatedDate": "enero 2025",
+    "sections": [
+      {
+        "title": "1. Aceptación de Términos",
+        "paragraphs": [
+          "Al acceder y utilizar la aplicación móvil Victus (\"App\"), usted acepta y acepta estar sujeto a los términos de este acuerdo. Si no está de acuerdo con estos Términos de servicio, no utilice la aplicación."
+        ]
+      },
+      {
+        "title": "2. Descripción del Servicio",
+        "paragraphs": [
+          "Victus es una aplicación de superación personal y seguimiento de hábitos que proporciona a los usuarios:"
+        ],
+        "bullets": [
+          {
+            "text": "Planes personalizados de desarrollo de hábitos de 66 días"
+          },
+          {
+            "text": "Seguimiento diario de hábitos y seguimiento del progreso."
+          },
+          {
+            "text": "Funciones gamificadas que incluyen XP, rangos y logros"
+          },
+          {
+            "text": "Funcionalidad de clasificación global"
+          },
+          {
+            "text": "Seguimiento de rachas y notificaciones"
+          }
+        ]
+      },
+      {
+        "title": "3. Cuentas de usuario",
+        "paragraphs": [
+          "Para utilizar Victus, debe crear una cuenta. Usted acepta:"
+        ],
+        "bullets": [
+          {
+            "text": "Proporcionar información precisa, actual y completa durante el registro."
+          },
+          {
+            "text": "Mantenga la seguridad de las credenciales de su cuenta"
+          },
+          {
+            "text": "Notificarnos inmediatamente de cualquier acceso no autorizado a su cuenta"
+          },
+          {
+            "text": "Ser responsable de todas las actividades que ocurran bajo su cuenta."
+          }
+        ]
+      },
+      {
+        "title": "4. Suscripción y Pago",
+        "paragraphs": [
+          "Victus ofrece acceso basado en suscripción con opciones de facturación mensual y anual.",
+          "Las suscripciones se facturan a través de su cuenta de Apple App Store. El pago se cobra en el momento de la confirmación de la compra y se renueva automáticamente a menos que se desactive la renovación automática al menos 24 horas antes del final del período actual.",
+          "Puede cancelar su suscripción a través de la configuración de su cuenta de App Store. La cancelación entra en vigor al final del período de facturación actual."
+        ]
+      },
+      {
+        "title": "5. Conducta del usuario",
+        "paragraphs": [
+          "Usted acepta no:"
+        ],
+        "bullets": [
+          {
+            "text": "Usar la aplicación con fines ilegales o en violación de las leyes aplicables"
+          },
+          {
+            "text": "Intentar obtener acceso no autorizado a cualquier parte de la aplicación"
+          },
+          {
+            "text": "Interferir o interrumpir la aplicación o los servidores conectados"
+          },
+          {
+            "text": "Utilice sistemas automatizados para acceder a la aplicación"
+          },
+          {
+            "text": "Hacerse pasar por cualquier persona o entidad"
+          },
+          {
+            "text": "Acosar, abusar o dañar a otros usuarios"
+          },
+          {
+            "text": "Manipular las clasificaciones de las tablas de clasificación a través de medios fraudulentos"
+          }
+        ]
+      },
+      {
+        "title": "6. Tabla de clasificación e información pública",
+        "paragraphs": [
+          "Al utilizar Victus, comprende y acepta que su nombre de usuario, XP, y la información de su racha pueden mostrarse en la tabla de clasificación global pública."
+        ]
+      },
+      {
+        "title": "7. Propiedad intelectual",
+        "paragraphs": [
+          "La Aplicación y su contenido, características y funcionalidad originales son propiedad de Victus y están protegidos por las leyes de propiedad intelectual. No puede copiar, modificar, distribuir, vender ni arrendar ninguna parte de nuestra Aplicación."
+        ]
+      },
+      {
+        "title": "8. Renuncia de garantías",
+        "paragraphs": [
+          "La Aplicación se proporciona \"as is\" y \"as available\" sin garantías de ningún tipo, ya sea expresa o implícita. Victus no garantiza que la Aplicación será ininterrumpida, segura o estará libre de errores."
+        ]
+      },
+      {
+        "title": "9. Limitación de responsabilidad",
+        "paragraphs": [
+          "En ningún caso Victus, sus directores, empleados o agentes serán responsables de ningún daño indirecto, incidental, especial, consecuente o punitivo que surja de su uso de la Aplicación."
+        ]
+      },
+      {
+        "title": "10. Terminación de la cuenta",
+        "paragraphs": [
+          "Nos reservamos el derecho de cancelar o suspender su cuenta, sin previo aviso, por conducta que viole estos Términos de servicio o que de otro modo sea perjudicial."
+        ]
+      },
+      {
+        "title": "11. Cambios a los términos",
+        "paragraphs": [
+          "Nos reservamos el derecho de modificar estos términos en cualquier momento. Notificaremos a los usuarios sobre cambios materiales actualizando la última fecha de actualización. El uso continuado de la Aplicación después de los cambios constituye la aceptación de los términos modificados."
+        ]
+      },
+      {
+        "title": "12. Ley aplicable",
+        "paragraphs": [
+          "Estos Términos se regirán e interpretarán de conformidad con las leyes de los Estados Unidos, sin tener en cuenta las disposiciones sobre conflictos de leyes."
+        ]
+      },
+      {
+        "title": "13. Información de contacto",
+        "paragraphs": [
+          "Si tiene alguna pregunta sobre estos Términos de servicio, comuníquese con nosotros al support@getvictus.com."
+        ]
+      }
+    ]
+  }
+}

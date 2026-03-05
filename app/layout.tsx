@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navigation from "./components/Navigation";
-import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Victus - 66 Days to a Victorious Lifestyle",
@@ -30,11 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
-        <Navigation />
-        <main className="min-h-screen">
-          {children}
-        </main>
-        <Footer />
+        {children}
       </body>
     </html>
   );

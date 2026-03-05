@@ -1,0 +1,399 @@
+{
+  "metadata": {
+    "defaultTitle": "Victus - 66 dagen naar een zegevierende levensstijl",
+    "defaultDescription": "Bouw een onbreekbare discipline op door gegamificeerd zelfbeheersing. Houd gewoonten bij, verdien XP, beklim de ranglijsten en word de held van je eigen reis.",
+    "supportTitle": "Ondersteuning - Victus",
+    "supportDescription": "Krijg hulp met Victus. Neem contact op met ons ondersteuningsteam voor hulp.",
+    "privacyTitle": "Privacybeleid en servicevoorwaarden - Victus",
+    "privacyDescription": "Privacybeleid en servicevoorwaarden voor de app Victus",
+    "termsTitle": "Servicevoorwaarden - Victus",
+    "termsDescription": "Servicevoorwaarden voor de app Victus"
+  },
+  "navigation": {
+    "support": "Steun",
+    "privacy": "Privacy",
+    "download": "DOWNLOADEN"
+  },
+  "footer": {
+    "tagline": "66 dagen naar een zegevierende levensstijl. Bouw een onbreekbare discipline op door gegamificeerd zelfbeheersing.",
+    "product": "Product",
+    "features": "Functies",
+    "support": "Steun",
+    "legal": "Legaal",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfService": "Servicevoorwaarden",
+    "rightsReserved": "Alle rechten voorbehouden."
+  },
+  "home": {
+    "headlineLine1": "Stop met afdrijven.",
+    "headlineLine2": "Begin met bouwen.",
+    "subtitle": "Jouw smeltkroes van 66 dagen om discipline te smeden, te concurreren met een mondiaal legioen en een leven van overwinning op te bouwen.",
+    "appStoreAlt": "Downloaden in de App Store",
+    "screenshotAlt": "__MERK_0__ app"
+  },
+  "supportPage": {
+    "titlePrefix": "Steun",
+    "titleAccent": "Centrum",
+    "subtitle": "Hulp nodig? Wij zijn hier om u te ondersteunen op uw reis naar de overwinning.",
+    "contactTitle": "Neem contact met ons op",
+    "emailSupportTitle": "E-mailondersteuning",
+    "emailSupportDescription": "Voor app-problemen, functieverzoeken of algemene vragen",
+    "faqTitlePrefix": "Veelgestelde vragen",
+    "faqTitleAccent": "Vragen",
+    "faqs": [
+      {
+        "question": "Hoe zeg ik mijn abonnement op?",
+        "answer": "U kunt uw abonnement beheren via uw App Store-instellingen. Ga naar Instellingen → [Uw naam] → Abonnementen → Victus en selecteer vervolgens Abonnement opzeggen."
+      },
+      {
+        "question": "Hoe werkt de 66-dagen challenge?",
+        "answer": "Na onboarding genereert Victus een persoonlijk plan op basis van de door u geselecteerde pijlers (Discipline, Fitness, Wellness, etc.). Elke dag ontvang je een checklist met gewoonten die je moet voltooien. Als je gewoontes voltooit, verdien je XP en bouw je je streak op."
+      },
+      {
+        "question": "Wat zijn XP en rangen?",
+        "answer": "XP (ervaringspunten) worden verdiend door dagelijkse gewoonten te voltooien. Naarmate je XP verzamelt, ga je door de rangen: Brons → Zilver → Goud → Spartaans. Elke rang vertegenwoordigt jouw groei en meesterschap."
+      },
+      {
+        "question": "Hoe werkt het klassement?",
+        "answer": "Het Global Leaderboard toont alle Victus gebruikers gerangschikt op totaal XP of huidige reeks. Het is een manier om te concurreren met strijders over de hele wereld en gemotiveerd te blijven door vriendschappelijke concurrentie."
+      },
+      {
+        "question": "Mijn streak is gebroken. Kan het worden hersteld?",
+        "answer": "Streaks maken deel uit van het opbouwen van echte discipline en kunnen niet worden hersteld. Elke nieuwe dag is echter een kans om opnieuw te beginnen en een nog sterkere streak op te bouwen."
+      },
+      {
+        "question": "Ik heb een bug gevonden. Hoe meld ik het?",
+        "answer": "Stuur een e-mail naar support@getvictus.com met details over het probleem, inclusief uw apparaatmodel en iOS-versie. We stellen uw hulp bij het verbeteren van Victus op prijs!"
+      },
+      {
+        "question": "Is Victus beschikbaar op Android?",
+        "answer": "Victus is momenteel alleen voor iOS, maar een Android-versie is in ontwikkeling. Stuur ons een e-mail om op de hoogte te worden gehouden wanneer deze wordt gelanceerd."
+      },
+      {
+        "question": "Hoe verwijder ik mijn account?",
+        "answer": "U kunt een accountverwijdering aanvragen vanuit de instellingen van de app, of u kunt een e-mail sturen naar support@getvictus.com. Al uw gegevens worden permanent van onze servers verwijderd."
+      }
+    ],
+    "stillNeedHelpTitle": "Nog steeds hulp nodig?",
+    "stillNeedHelpDescription": "Kunt u niet vinden wat u zoekt? Ons ondersteuningsteam staat klaar om u te helpen.",
+    "contactButton": "Neem contact op met ondersteuning"
+  },
+  "privacyPage": {
+    "titlePrefix": "Privacybeleid en",
+    "titleAccent": "Servicevoorwaarden",
+    "lastUpdatedLabel": "Laatst bijgewerkt",
+    "lastUpdatedDate": "28 oktober 2025",
+    "intro": "Welkom bij Victus. Voordat u onze applicatie (de \"App\") kunt gebruiken, is het verplicht dat u akkoord gaat met deze Servicevoorwaarden en Privacybeleid. Door onze diensten te bezoeken of te gebruiken, bevestigt u dat u deze voorwaarden hebt gelezen, begrepen en geaccepteerd, en dat u ermee akkoord gaat dat u er wettelijk aan gebonden bent. Als u niet akkoord gaat met deze voorwaarden, mag u onze App of diensten niet gebruiken.",
+    "termsSectionTitle": "Servicevoorwaarden",
+    "termsItems": [
+      {
+        "title": "1. Gebruik van onze diensten",
+        "bullets": [
+          {
+            "label": "Alleen voor persoonlijk gebruik:",
+            "text": "Onze diensten zijn uitsluitend bedoeld voor uw persoonlijk, niet-commercieel gebruik. Het is ten strengste verboden om onze diensten door te verkopen, te kopiëren of anderszins te gebruiken voor commerciële doeleinden."
+          },
+          {
+            "label": "Softwarebescherming:",
+            "text": "U mag de broncode of onderliggende algoritmen van onze App niet reverse-engineeren, decompileren, demonteren of proberen te ontdekken."
+          }
+        ]
+      },
+      {
+        "title": "2. Abonnementsgegevens",
+        "paragraphs": [
+          "Victus werkt op abonnementsbasis, waarbij de facturering maandelijks of jaarlijks plaatsvindt.",
+          "De door u gekozen betaalmethode wordt automatisch gefactureerd via uw Apple App Store-account volgens ons abonnement, tenzij u uw abonnement opzegt. U bent verantwoordelijk voor alle kosten die op uw account worden gemaakt.",
+          "U kunt uw abonnement op elk gewenst moment beheren en automatische verlenging uitschakelen via uw iTunes-accountinstellingen."
+        ]
+      },
+      {
+        "title": "3. Disclaimers en beperking van aansprakelijkheid",
+        "bullets": [
+          {
+            "label": "Geleverde services \"As Is\":",
+            "text": "Onze diensten worden geleverd op een \"as is\" en \"as available\" basis. Voor zover maximaal toegestaan ​​door de wet, wijst Victus alle garanties af, expliciet of impliciet, inclusief garanties van verkoopbaarheid, geschiktheid voor een bepaald doel en niet-inbreuk."
+          },
+          {
+            "label": "Beperking van aansprakelijkheid:",
+            "text": "In geen geval is Victus aansprakelijk voor enige indirecte, incidentele, speciale, gevolg- of punitieve schade die voortvloeit uit uw gebruik of onvermogen om onze diensten te gebruiken. Onze totale aansprakelijkheid jegens u voor alle schade zal niet hoger zijn dan vijftig dollar ($50.00)."
+          }
+        ]
+      },
+      {
+        "title": "4. Schadeloosstelling",
+        "paragraphs": [
+          "U stemt ermee in Victus, haar dochterondernemingen en werknemers schadeloos te stellen en te vrijwaren van alle claims, aansprakelijkheden, schade en kosten (inclusief redelijke advocatenhonoraria) die voortvloeien uit uw gebruik van onze diensten of uw schending van deze Voorwaarden."
+        ]
+      },
+      {
+        "title": "5. Beëindiging en wijziging",
+        "bullets": [
+          {
+            "label": "Beëindiging:",
+            "text": "Wij behouden ons het recht voor om uw toegang tot onze diensten op elk moment, zonder voorafgaande kennisgeving, op te schorten of te beëindigen als u deze Voorwaarden schendt."
+          },
+          {
+            "label": "Wijziging:",
+            "text": "Wij behouden ons het recht voor om deze Voorwaarden op elk moment bij te werken. Eventuele wijzigingen worden op onze website geplaatst en als u onze diensten na dergelijke wijzigingen blijft gebruiken, betekent dit dat u akkoord gaat met de nieuwe voorwaarden."
+          }
+        ]
+      }
+    ],
+    "privacySectionTitle": "Privacybeleid",
+    "privacyLead": "Bij Victus doen we er alles aan om uw persoonlijke gegevens te beschermen.",
+    "privacyItems": [
+      {
+        "title": "6. Informatieverzameling",
+        "paragraphs": [
+          "Wij verzamelen informatie die u vrijwillig verstrekt wanneer u een account aanmaakt en de app gebruikt. Dit omvat:"
+        ],
+        "bullets": [
+          {
+            "label": "Accountinformatie:",
+            "text": "Uw e-mailadres en gebruikersnaam."
+          },
+          {
+            "label": "Onboarding-informatie:",
+            "text": "Uw leeftijdscategorie, zelf beoordeelde huidige toestand, gekozen primaire deugd, geïdentificeerd primair obstakel en basisgegevens over gewoontes."
+          },
+          {
+            "label": "Gebruiksgegevens:",
+            "text": "Informatie over uw interacties met de app, zoals bijgehouden gewoonten, verdiende XP en rangschikking."
+          },
+          {
+            "label": "Apparaatgegevens:",
+            "text": "Uw pushmeldingstoken (als u daarmee instemt) en uw apparaatadvertentie-ID (IDFA) als u toestemming geeft via Apple's App Tracking Transparency-prompt."
+          }
+        ]
+      },
+      {
+        "title": "7. Gebruik van uw gegevens",
+        "paragraphs": [
+          "Wij gebruiken uw gegevens om:"
+        ],
+        "bullets": [
+          {
+            "text": "Het leveren, exploiteren en verbeteren van onze diensten."
+          },
+          {
+            "text": "Maak en beheer uw account en verwerk abonnementen."
+          },
+          {
+            "text": "Genereer uw persoonlijke 66-dagenplan."
+          },
+          {
+            "text": "Geef uw voortgang en positie weer op uw profiel en het openbare klassement."
+          },
+          {
+            "text": "Stuur je pushmeldingen."
+          },
+          {
+            "text": "Meet de effectiviteit van onze marketingcampagnes."
+          }
+        ]
+      },
+      {
+        "title": "8. Openbaarmaking van uw gegevens",
+        "paragraphs": [
+          "We delen uw informatie met vertrouwde externe dienstverleners om namens ons diensten uit te voeren, waaronder:"
+        ],
+        "bullets": [
+          {
+            "label": "Backend en database:",
+            "text": "Google Firebase"
+          },
+          {
+            "label": "Abonnementsbeheer:",
+            "text": "InkomstenCat"
+          },
+          {
+            "label": "Analyse:",
+            "text": "Mixpanel, Firebase Crashlytics"
+          },
+          {
+            "label": "Toeschrijving en reclame:",
+            "text": "AppsFlyer, Meta (Facebook), Google en TikTok"
+          }
+        ]
+      },
+      {
+        "title": "9. Gegevensbeveiliging en bewaring",
+        "paragraphs": [
+          "Wij implementeren passende technische maatregelen om uw gegevens te beschermen. Uw gegevens worden bewaard zolang uw account actief is of zolang dit nodig is om de in dit beleid beschreven doeleinden te verwezenlijken."
+        ]
+      },
+      {
+        "title": "10. Uw gegevensrechten",
+        "paragraphs": [
+          "U heeft het recht om:"
+        ],
+        "bullets": [
+          {
+            "text": "Toegang krijgen tot uw persoonlijke gegevens, deze corrigeren of bijwerken."
+          },
+          {
+            "text": "Vraag verwijdering van uw account en bijbehorende gegevens aan vanuit de app-instellingen."
+          },
+          {
+            "text": "Beheer uw trackingvoorkeuren voor advertentiedoeleinden via de in-app-prompt of uw iOS-instellingen."
+          }
+        ]
+      },
+      {
+        "title": "11. Privacy van kinderen",
+        "paragraphs": [
+          "We verzamelen niet bewust informatie van of verkopen deze aan kinderen jonger dan 13 jaar."
+        ]
+      },
+      {
+        "title": "12. Neem contact met ons op",
+        "paragraphs": [
+          "Als u vragen heeft over deze voorwaarden of ons privacybeleid, kunt u contact met ons opnemen via support@getvictus.com."
+        ]
+      }
+    ]
+  },
+  "termsPage": {
+    "titlePrefix": "Voorwaarden van",
+    "titleAccent": "Dienst",
+    "lastUpdatedLabel": "Laatst bijgewerkt",
+    "lastUpdatedDate": "Januari 2025",
+    "sections": [
+      {
+        "title": "1. Acceptatie van voorwaarden",
+        "paragraphs": [
+          "Door de mobiele applicatie Victus (\"App\") te openen en te gebruiken, accepteert u en gaat u ermee akkoord gebonden te zijn aan de voorwaarden van deze overeenkomst. Als u niet akkoord gaat met deze Servicevoorwaarden, gebruik de App dan niet."
+        ]
+      },
+      {
+        "title": "2. Beschrijving van de dienst",
+        "paragraphs": [
+          "Victus is een applicatie voor het bijhouden van gewoonten en zelfverbetering die gebruikers het volgende biedt:"
+        ],
+        "bullets": [
+          {
+            "text": "Gepersonaliseerde 66-daagse gewoonteopbouwende plannen"
+          },
+          {
+            "text": "Dagelijkse gewoonteregistratie en voortgangsmonitoring"
+          },
+          {
+            "text": "Gegamificeerde functies, waaronder XP, rangen en prestaties"
+          },
+          {
+            "text": "Globale leaderboard-functionaliteit"
+          },
+          {
+            "text": "Streak-tracking en meldingen"
+          }
+        ]
+      },
+      {
+        "title": "3. Gebruikersaccounts",
+        "paragraphs": [
+          "Om Victus te gebruiken, moet u een account aanmaken. U gaat akkoord met:"
+        ],
+        "bullets": [
+          {
+            "text": "Geef nauwkeurige, actuele en volledige informatie tijdens de registratie"
+          },
+          {
+            "text": "Zorg voor de veiligheid van uw accountgegevens"
+          },
+          {
+            "text": "Breng ons onmiddellijk op de hoogte van elke ongeautoriseerde toegang tot uw account"
+          },
+          {
+            "text": "Wees verantwoordelijk voor alle activiteiten die plaatsvinden onder uw account"
+          }
+        ]
+      },
+      {
+        "title": "4. Abonnement en betaling",
+        "paragraphs": [
+          "Victus biedt toegang op abonnementsbasis met maandelijkse en jaarlijkse factureringsopties.",
+          "Abonnementen worden gefactureerd via uw Apple App Store-account. De betaling wordt in rekening gebracht bij de aankoopbevestiging en wordt automatisch verlengd, tenzij automatisch verlengen ten minste 24 uur voor het einde van de huidige periode wordt uitgeschakeld.",
+          "U kunt uw abonnement opzeggen via uw App Store-accountinstellingen. De annulering wordt van kracht aan het einde van de huidige factureringsperiode."
+        ]
+      },
+      {
+        "title": "5. Gebruikersgedrag",
+        "paragraphs": [
+          "U stemt ermee in om het volgende niet te doen:"
+        ],
+        "bullets": [
+          {
+            "text": "Gebruik de app voor illegale doeleinden of in strijd met toepasselijke wetgeving"
+          },
+          {
+            "text": "Poging om ongeautoriseerde toegang te krijgen tot enig deel van de app"
+          },
+          {
+            "text": "De app of verbonden servers verstoren of verstoren"
+          },
+          {
+            "text": "Gebruik geautomatiseerde systemen om toegang te krijgen tot de app"
+          },
+          {
+            "text": "Zich voordoen als een persoon of entiteit"
+          },
+          {
+            "text": "Andere gebruikers lastigvallen, misbruiken of schade toebrengen"
+          },
+          {
+            "text": "Manipuleer ranglijsten op frauduleuze wijze"
+          }
+        ]
+      },
+      {
+        "title": "6. Leaderboard en openbare informatie",
+        "paragraphs": [
+          "Door Victus te gebruiken, begrijpt u en gaat u ermee akkoord dat uw gebruikersnaam, XP en streak-informatie kunnen worden weergegeven op het openbare Global Leaderboard."
+        ]
+      },
+      {
+        "title": "7. Intellectuele eigendom",
+        "paragraphs": [
+          "De app en de originele inhoud, functies en functionaliteit zijn eigendom van Victus en worden beschermd door wetten op het gebied van intellectueel eigendom. U mag geen enkel onderdeel van onze app kopiëren, wijzigen, distribueren, verkopen of leasen."
+        ]
+      },
+      {
+        "title": "8. Afwijzing van garanties",
+        "paragraphs": [
+          "De app wordt \"as is\" en \"as available\" geleverd zonder enige vorm van garantie, expliciet of impliciet. Victus garandeert niet dat de app ononderbroken, veilig of foutloos zal zijn."
+        ]
+      },
+      {
+        "title": "9. Beperking van aansprakelijkheid",
+        "paragraphs": [
+          "In geen geval zijn Victus, haar directeuren, werknemers of agenten aansprakelijk voor enige indirecte, incidentele, speciale, gevolg- of punitieve schade die voortvloeit uit uw gebruik van de app."
+        ]
+      },
+      {
+        "title": "10. Beëindiging van account",
+        "paragraphs": [
+          "We behouden ons het recht voor om uw account zonder voorafgaande kennisgeving te beëindigen of op te schorten vanwege gedrag dat in strijd is met deze Servicevoorwaarden of anderszins schadelijk is."
+        ]
+      },
+      {
+        "title": "11. Wijzigingen in de voorwaarden",
+        "paragraphs": [
+          "Wij behouden ons het recht voor om deze voorwaarden op elk moment te wijzigen. We zullen gebruikers op de hoogte stellen van materiële wijzigingen door de laatst bijgewerkte datum bij te werken. Voortgezet gebruik van de App na wijzigingen houdt aanvaarding van de gewijzigde voorwaarden in."
+        ]
+      },
+      {
+        "title": "12. Toepasselijk recht",
+        "paragraphs": [
+          "Deze Voorwaarden worden beheerst door en geïnterpreteerd in overeenstemming met de wetten van de Verenigde Staten, zonder rekening te houden met conflicterende wettelijke bepalingen."
+        ]
+      },
+      {
+        "title": "13. Contactgegevens",
+        "paragraphs": [
+          "Als u vragen heeft over deze Servicevoorwaarden, kunt u contact met ons opnemen via support@getvictus.com."
+        ]
+      }
+    ]
+  }
+}
