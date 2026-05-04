@@ -82,7 +82,7 @@
     "titlePrefix": "Privacy Policy and",
     "titleAccent": "Terms of Service",
     "lastUpdatedLabel": "Last Updated",
-    "lastUpdatedDate": "October 28, 2025",
+    "lastUpdatedDate": "May 4, 2026",
     "intro": "Welcome to Victus. Before you can use our application (the \"App\"), it is mandatory that you agree to these Terms of Service and Privacy Policy. By accessing or using our services, you confirm that you have read, understood, and accepted these terms and agree to be legally bound by them. If you do not agree to these terms, you must not use our App or services.",
     "termsSectionTitle": "Terms of Service",
     "termsItems": [
@@ -215,6 +215,15 @@
             "label": "Attribution & Advertising:",
             "text": "AppsFlyer, Meta (Facebook), Google, and TikTok"
           }
+        ]
+      },
+      {
+        "title": "8A. AI Services",
+        "paragraphs": [
+          "Victus uses third-party AI services for its Face Score and Physique Score photo-analysis features.",
+          "When a user chooses to analyze a photo, Victus sends the selected image and limited information necessary to process the request and return the result to the user's account. This processing is performed through OpenRouter, Alibaba, and Gemini.",
+          "Victus does not send the user's name or email address as part of these photo-analysis requests.",
+          "Users can review this information in the app via Settings > Privacy, and on this Privacy Policy page."
         ]
       },
       {
