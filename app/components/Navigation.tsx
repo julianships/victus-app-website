@@ -1,7 +1,9 @@
+import { Suspense } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Locale, Messages } from '@/lib/i18n';
 import { localePath } from '@/lib/i18n';
+import DownloadNavigationLink from './DownloadNavigationLink';
 
 type NavigationProps = {
   locale: Locale;
@@ -9,6 +11,12 @@ type NavigationProps = {
 };
 
 export default function Navigation({ locale, navigation }: NavigationProps) {
+  const desktopClassName =
+    'bg-gradient-to-r from-[#d4af37] to-[#f4d03f] text-black px-6 py-2 rounded-full font-semibold hover:opacity-90 transition-opacity';
+  const mobileClassName =
+    'bg-gradient-to-r from-[#d4af37] to-[#f4d03f] text-black px-4 py-2 rounded-full font-semibold text-sm';
+  const downloadStyle = { fontFamily: "'Orbitron', sans-serif" };
+
   return (
     <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -31,24 +39,47 @@ export default function Navigation({ locale, navigation }: NavigationProps) {
             <Link href={localePath(locale, '/privacy')} className="text-gray-300 hover:text-[#d4af37] transition-colors">
               {navigation.privacy}
             </Link>
-            <a
-              href="https://apps.apple.com/us/app/victus-discipline-habits/id6754204999"
-              className="bg-gradient-to-r from-[#d4af37] to-[#f4d03f] text-black px-6 py-2 rounded-full font-semibold hover:opacity-90 transition-opacity"
-              style={{ fontFamily: "'Orbitron', sans-serif" }}
+            <Suspense
+              fallback={
+                <a
+                  href={`${localePath(locale)}#download`}
+                  className={desktopClassName}
+                  style={downloadStyle}
+                >
+                  {navigation.download}
+                </a>
+              }
             >
-              {navigation.download}
-            </a>
+              <DownloadNavigationLink
+                locale={locale}
+                className={desktopClassName}
+                style={downloadStyle}
+              >
+                {navigation.download}
+              </DownloadNavigationLink>
+            </Suspense>
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden">
-            <a
-              href="https://apps.apple.com/us/app/victus-discipline-habits/id6754204999"
-              className="bg-gradient-to-r from-[#d4af37] to-[#f4d03f] text-black px-4 py-2 rounded-full font-semibold text-sm"
-              style={{ fontFamily: "'Orbitron', sans-serif" }}
+            <Suspense
+              fallback={
+                <a
+                  href={`${localePath(locale)}#download`}
+                  className={mobileClassName}
+                  style={downloadStyle}
+                >
+                  {navigation.download}
+                </a>
+              }
             >
-              {navigation.download}
-            </a>
+              <DownloadNavigationLink
+                locale={locale}
+                className={mobileClassName}
+                style={downloadStyle}
+              >
+                {navigation.download}
+              </DownloadNavigationLink>
+            </Suspense>
           </div>
         </div>
       </div>
