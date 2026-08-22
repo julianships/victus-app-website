@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import { getMessages, localePath, resolveLocale } from '@/lib/i18n';
+import { buildStoreHref } from '@/lib/storeLinks';
 
 const SITE_URL = 'https://www.getvictus.com';
 
 type PageParams = Promise<{ locale: string }>;
+type PageSearchParams = Promise<Record<string, string | string[] | undefined>>;
 
 export async function generateMetadata({
   params,
@@ -24,10 +26,31 @@ export async function generateMetadata({
   };
 }
 
-export default async function Home({ params }: { params: PageParams }) {
+export default async function Home({
+  params,
+  searchParams,
+}: {
+  params: PageParams;
+  searchParams: PageSearchParams;
+}) {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
   const messages = await getMessages(locale);
+  const rawSearchParams = await searchParams;
+  const attributionSearchParams = new URLSearchParams();
+  for (const [key, value] of Object.entries(rawSearchParams)) {
+    if (Array.isArray(value)) {
+      for (const item of value) attributionSearchParams.append(key, item);
+    } else if (value !== undefined) {
+      attributionSearchParams.set(key, value);
+    }
+  }
+  const appleStoreHref = buildStoreHref(
+    'apple',
+    attributionSearchParams,
+    process.env.NEXT_PUBLIC_APPLE_PROVIDER_TOKEN,
+  );
+  const googlePlayHref = buildStoreHref('google', attributionSearchParams);
 
   return (
     <div className="bg-black" id="features">
@@ -45,9 +68,12 @@ export default async function Home({ params }: { params: PageParams }) {
                 {messages.home.subtitle}
               </p>
 
-              <div className="flex flex-col sm:flex-row items-center lg:items-start gap-3 sm:gap-4">
+              <div
+                id="download"
+                className="flex flex-col sm:flex-row items-center lg:items-start gap-3 sm:gap-4 scroll-mt-24"
+              >
                 <a
-                  href="https://apps.apple.com/us/app/victus-discipline-habits/id6754204999"
+                  href={appleStoreHref}
                   className="inline-block hover:opacity-80 transition-opacity"
                 >
                   <Image
@@ -60,7 +86,7 @@ export default async function Home({ params }: { params: PageParams }) {
                 </a>
 
                 <a
-                  href="https://play.google.com/store/apps/details?id=com.victus.app"
+                  href={googlePlayHref}
                   className="inline-block hover:opacity-80 transition-opacity"
                 >
                   <Image
