@@ -3,10 +3,14 @@ import test from 'node:test';
 
 import {
   buildSeo66DayChallengeStoreHref,
+  buildSeoStopStartingOverStoreHref,
   SEO_66_DAY_CHALLENGE_ATTRIBUTION,
   SEO_66_DAY_CHALLENGE_PATH,
   SEO_66_DAY_CHALLENGE_PUBLIC_PATH,
   SEO_66_DAY_CHALLENGE_SOCIAL_IMAGE,
+  SEO_STOP_STARTING_OVER_ATTRIBUTION,
+  SEO_STOP_STARTING_OVER_PATH,
+  SEO_STOP_STARTING_OVER_PUBLIC_PATH,
   resolveEnglishOnlySeoPath,
 } from './seo.ts';
 
@@ -23,13 +27,44 @@ test('defines one stable, versioned SEO landing path and attribution contract', 
   });
 });
 
-test('routes the English-only SEO slug independently of browser language', () => {
+test('routes the English-only SEO slugs independently of browser language', () => {
   assert.equal(
     resolveEnglishOnlySeoPath('/66-day-challenge'),
     '/en/66-day-challenge',
   );
+  assert.equal(
+    resolveEnglishOnlySeoPath('/stop-starting-over'),
+    '/en/stop-starting-over',
+  );
   assert.equal(resolveEnglishOnlySeoPath('/support'), null);
   assert.equal(SEO_66_DAY_CHALLENGE_PUBLIC_PATH, '/en/66-day-challenge');
+  assert.equal(SEO_STOP_STARTING_OVER_PUBLIC_PATH, '/en/stop-starting-over');
+});
+
+test('defines a distinct stable contract for the stop-starting-over page', () => {
+  assert.equal(SEO_STOP_STARTING_OVER_PATH, '/stop-starting-over');
+  assert.deepEqual(SEO_STOP_STARTING_OVER_ATTRIBUTION, {
+    source: 'organic_search',
+    platform: 'web',
+    account_id: 'owned_site',
+    creative_id: 'seo_stop_starting_over',
+    format: 'landing_page',
+    hook_family: 'minimum_viable_reset',
+    posted_at: '2026-08-27T14:30:00Z',
+  });
+
+  const googleUrl = new URL(buildSeoStopStartingOverStoreHref('google'));
+  const referrer = new URLSearchParams(
+    googleUrl.searchParams.get('referrer') ?? '',
+  );
+  assert.deepEqual(
+    Object.fromEntries(referrer.entries()),
+    SEO_STOP_STARTING_OVER_ATTRIBUTION,
+  );
+  assert.equal(
+    buildSeoStopStartingOverStoreHref('apple'),
+    'https://apps.apple.com/us/app/victus-discipline-habits/id6754204999',
+  );
 });
 
 test('uses a production absolute social image URL', () => {
