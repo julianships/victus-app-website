@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { defaultLocale, isLocale, type Locale } from '@/lib/i18n';
+import { resolveEnglishOnlySeoPath } from '@/lib/seo';
 
 const PUBLIC_FILE = /\.[^/]+$/;
 const localeAliases: Record<string, Locale> = {
@@ -72,6 +73,13 @@ export function proxy(request: NextRequest) {
     const url = request.nextUrl.clone();
     const rest = segments.slice(2).join('/');
     url.pathname = rest ? `/${canonicalLocale}/${rest}` : `/${canonicalLocale}`;
+    return NextResponse.redirect(url);
+  }
+
+  const englishOnlyPath = resolveEnglishOnlySeoPath(pathname);
+  if (englishOnlyPath) {
+    const url = request.nextUrl.clone();
+    url.pathname = englishOnlyPath;
     return NextResponse.redirect(url);
   }
 
