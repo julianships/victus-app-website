@@ -1,0 +1,36 @@
+import { buildStoreHref, type Store } from './storeLinks.ts';
+
+export const SEO_66_DAY_CHALLENGE_PATH = '/66-day-challenge';
+export const SEO_66_DAY_CHALLENGE_PUBLIC_PATH = `/en${SEO_66_DAY_CHALLENGE_PATH}`;
+export const SEO_66_DAY_CHALLENGE_SOCIAL_IMAGE =
+  'https://www.getvictus.com/App%20Store%20Screenshots/New%20Banner%20Pic%20Updated.png';
+
+export function resolveEnglishOnlySeoPath(pathname: string): string | null {
+  return pathname === SEO_66_DAY_CHALLENGE_PATH
+    ? SEO_66_DAY_CHALLENGE_PUBLIC_PATH
+    : null;
+}
+
+// This is the versioned first-touch contract for the owned SEO landing page.
+// Keep the ID stable when copy changes; advance posted_at when the page is
+// materially revised so downstream cohorts can distinguish page versions.
+export const SEO_66_DAY_CHALLENGE_ATTRIBUTION = {
+  source: 'organic_search',
+  platform: 'web',
+  account_id: 'owned_site',
+  creative_id: 'seo_66_day_challenge',
+  format: 'landing_page',
+  hook_family: 'future_state_day_counter',
+  posted_at: '2026-08-27T09:36:34Z',
+} as const;
+
+export function buildSeo66DayChallengeStoreHref(
+  store: Store,
+  appleProviderToken?: string,
+): string {
+  return buildStoreHref(
+    store,
+    new URLSearchParams(SEO_66_DAY_CHALLENGE_ATTRIBUTION),
+    appleProviderToken,
+  );
+}

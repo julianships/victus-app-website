@@ -1,23 +1,28 @@
-import { MetadataRoute } from 'next';
-import { localePath, locales, toHreflang } from '@/lib/i18n';
+import type { MetadataRoute } from 'next';
+import { localePath, locales, toHreflang, type Locale } from '@/lib/i18n';
 
 const baseUrl = 'https://www.getvictus.com';
 
-const routes = [
-  { path: '/', priority: 1 },
-  { path: '/privacy', priority: 0.8 },
-  { path: '/support', priority: 0.8 },
-  { path: '/terms', priority: 0.5 },
-] as const;
+const routes: Array<{
+  path: string;
+  priority: number;
+  locales: readonly Locale[];
+}> = [
+  { path: '/', priority: 1, locales },
+  { path: '/privacy', priority: 0.8, locales },
+  { path: '/support', priority: 0.8, locales },
+  { path: '/terms', priority: 0.5, locales },
+  { path: '/66-day-challenge', priority: 0.9, locales: ['en'] },
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
 
   return routes.flatMap((route) => {
-    return locales.map((locale) => {
+    return route.locales.map((locale) => {
       const localizedPath = localePath(locale, route.path);
       const alternates = Object.fromEntries(
-        locales.map((altLocale) => [
+        route.locales.map((altLocale) => [
           toHreflang(altLocale),
           `${baseUrl}${localePath(altLocale, route.path)}`,
         ]),
@@ -31,7 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: {
           languages: {
             ...alternates,
-            'x-default': `${baseUrl}/en${route.path === '/' ? '' : route.path}`,
+            'x-default': `${baseUrl}${localePath('en', route.path)}`,
           },
         },
       };

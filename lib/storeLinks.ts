@@ -56,7 +56,9 @@ export function readAttributionQuery(
     result[field] = value;
   }
 
-  if (result.source !== 'organic_shortform') return null;
+  if (!['organic_shortform', 'organic_search'].includes(result.source)) {
+    return null;
+  }
   if (!isCanonicalUtcTimestamp(result.posted_at)) return null;
 
   return result;
