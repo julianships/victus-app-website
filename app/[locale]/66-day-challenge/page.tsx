@@ -278,7 +278,7 @@ export default async function DayChallengePage({
               </summary>
               <p className="mt-4 max-w-3xl text-gray-400 leading-7">
                 Victus combines a personalized 66-day plan with daily tasks, XP,
-                ranks, increasing difficulty, and a global leaderboard. It is
+                ranks, and a global leaderboard. It is
                 designed for people who want a structured discipline challenge,
                 rather than a list of reminders.
               </p>
