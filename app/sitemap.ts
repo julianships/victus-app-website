@@ -16,6 +16,7 @@ const routes: Array<{
   { path: '/stop-starting-over', priority: 0.9, locales: ['en'] },
   { path: '/discipline-reset', priority: 0.9, locales: ['en'] },
   { path: '/build-consistency-without-motivation', priority: 0.9, locales: ['en'] },
+  { path: '/morning-discipline-routine', priority: 0.9, locales: ['en'] },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
