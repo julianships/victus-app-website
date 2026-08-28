@@ -9,6 +9,8 @@ export const SEO_DISCIPLINE_RESET_PUBLIC_PATH = `/en${SEO_DISCIPLINE_RESET_PATH}
 export const SEO_CONSISTENCY_WITHOUT_MOTIVATION_PATH = '/build-consistency-without-motivation';
 export const SEO_CONSISTENCY_WITHOUT_MOTIVATION_PUBLIC_PATH =
   `/en${SEO_CONSISTENCY_WITHOUT_MOTIVATION_PATH}`;
+export const SEO_MORNING_DISCIPLINE_PATH = '/morning-discipline-routine';
+export const SEO_MORNING_DISCIPLINE_PUBLIC_PATH = `/en${SEO_MORNING_DISCIPLINE_PATH}`;
 export const SEO_66_DAY_CHALLENGE_SOCIAL_IMAGE =
   'https://www.getvictus.com/App%20Store%20Screenshots/New%20Banner%20Pic%20Updated.png';
 
@@ -20,6 +22,7 @@ const englishOnlySeoPaths = new Map([
     SEO_CONSISTENCY_WITHOUT_MOTIVATION_PATH,
     SEO_CONSISTENCY_WITHOUT_MOTIVATION_PUBLIC_PATH,
   ],
+  [SEO_MORNING_DISCIPLINE_PATH, SEO_MORNING_DISCIPLINE_PUBLIC_PATH],
 ]);
 
 export function resolveEnglishOnlySeoPath(pathname: string): string | null {
@@ -109,6 +112,27 @@ export function buildSeoConsistencyWithoutMotivationStoreHref(
   return buildStoreHref(
     store,
     new URLSearchParams(SEO_CONSISTENCY_WITHOUT_MOTIVATION_ATTRIBUTION),
+    appleProviderToken,
+  );
+}
+
+export const SEO_MORNING_DISCIPLINE_ATTRIBUTION = {
+  source: 'organic_search',
+  platform: 'web',
+  account_id: 'owned_site',
+  creative_id: 'seo_morning_discipline',
+  format: 'landing_page',
+  hook_family: 'three_step_morning_start',
+  posted_at: '2026-08-28T18:20:00Z',
+} as const;
+
+export function buildSeoMorningDisciplineStoreHref(
+  store: Store,
+  appleProviderToken?: string,
+): string {
+  return buildStoreHref(
+    store,
+    new URLSearchParams(SEO_MORNING_DISCIPLINE_ATTRIBUTION),
     appleProviderToken,
   );
 }
