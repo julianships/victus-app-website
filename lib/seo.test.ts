@@ -4,6 +4,7 @@ import test from 'node:test';
 import {
   buildSeo66DayChallengeStoreHref,
   buildSeoStopStartingOverStoreHref,
+  buildSeoDisciplineResetStoreHref,
   SEO_66_DAY_CHALLENGE_ATTRIBUTION,
   SEO_66_DAY_CHALLENGE_PATH,
   SEO_66_DAY_CHALLENGE_PUBLIC_PATH,
@@ -11,6 +12,9 @@ import {
   SEO_STOP_STARTING_OVER_ATTRIBUTION,
   SEO_STOP_STARTING_OVER_PATH,
   SEO_STOP_STARTING_OVER_PUBLIC_PATH,
+  SEO_DISCIPLINE_RESET_ATTRIBUTION,
+  SEO_DISCIPLINE_RESET_PATH,
+  SEO_DISCIPLINE_RESET_PUBLIC_PATH,
   resolveEnglishOnlySeoPath,
 } from './seo.ts';
 
@@ -36,9 +40,32 @@ test('routes the English-only SEO slugs independently of browser language', () =
     resolveEnglishOnlySeoPath('/stop-starting-over'),
     '/en/stop-starting-over',
   );
+  assert.equal(resolveEnglishOnlySeoPath('/discipline-reset'), '/en/discipline-reset');
   assert.equal(resolveEnglishOnlySeoPath('/support'), null);
   assert.equal(SEO_66_DAY_CHALLENGE_PUBLIC_PATH, '/en/66-day-challenge');
   assert.equal(SEO_STOP_STARTING_OVER_PUBLIC_PATH, '/en/stop-starting-over');
+  assert.equal(SEO_DISCIPLINE_RESET_PUBLIC_PATH, '/en/discipline-reset');
+});
+
+test('defines a distinct stable contract for the discipline-reset page', () => {
+  assert.equal(SEO_DISCIPLINE_RESET_PATH, '/discipline-reset');
+  assert.deepEqual(SEO_DISCIPLINE_RESET_ATTRIBUTION, {
+    source: 'organic_search',
+    platform: 'web',
+    account_id: 'owned_site',
+    creative_id: 'seo_discipline_reset',
+    format: 'landing_page',
+    hook_family: 'seven_day_single_commitment',
+    posted_at: '2026-08-28T06:15:00Z',
+  });
+
+  const googleUrl = new URL(buildSeoDisciplineResetStoreHref('google'));
+  const referrer = new URLSearchParams(googleUrl.searchParams.get('referrer') ?? '');
+  assert.deepEqual(Object.fromEntries(referrer.entries()), SEO_DISCIPLINE_RESET_ATTRIBUTION);
+  assert.equal(
+    buildSeoDisciplineResetStoreHref('apple'),
+    'https://apps.apple.com/us/app/victus-discipline-habits/id6754204999',
+  );
 });
 
 test('defines a distinct stable contract for the stop-starting-over page', () => {

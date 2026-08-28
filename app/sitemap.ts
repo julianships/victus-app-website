@@ -14,6 +14,7 @@ const routes: Array<{
   { path: '/terms', priority: 0.5, locales },
   { path: '/66-day-challenge', priority: 0.9, locales: ['en'] },
   { path: '/stop-starting-over', priority: 0.9, locales: ['en'] },
+  { path: '/discipline-reset', priority: 0.9, locales: ['en'] },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
