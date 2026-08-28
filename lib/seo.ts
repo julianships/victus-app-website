@@ -4,12 +4,15 @@ export const SEO_66_DAY_CHALLENGE_PATH = '/66-day-challenge';
 export const SEO_66_DAY_CHALLENGE_PUBLIC_PATH = `/en${SEO_66_DAY_CHALLENGE_PATH}`;
 export const SEO_STOP_STARTING_OVER_PATH = '/stop-starting-over';
 export const SEO_STOP_STARTING_OVER_PUBLIC_PATH = `/en${SEO_STOP_STARTING_OVER_PATH}`;
+export const SEO_DISCIPLINE_RESET_PATH = '/discipline-reset';
+export const SEO_DISCIPLINE_RESET_PUBLIC_PATH = `/en${SEO_DISCIPLINE_RESET_PATH}`;
 export const SEO_66_DAY_CHALLENGE_SOCIAL_IMAGE =
   'https://www.getvictus.com/App%20Store%20Screenshots/New%20Banner%20Pic%20Updated.png';
 
 const englishOnlySeoPaths = new Map([
   [SEO_66_DAY_CHALLENGE_PATH, SEO_66_DAY_CHALLENGE_PUBLIC_PATH],
   [SEO_STOP_STARTING_OVER_PATH, SEO_STOP_STARTING_OVER_PUBLIC_PATH],
+  [SEO_DISCIPLINE_RESET_PATH, SEO_DISCIPLINE_RESET_PUBLIC_PATH],
 ]);
 
 export function resolveEnglishOnlySeoPath(pathname: string): string | null {
@@ -57,6 +60,27 @@ export function buildSeoStopStartingOverStoreHref(
   return buildStoreHref(
     store,
     new URLSearchParams(SEO_STOP_STARTING_OVER_ATTRIBUTION),
+    appleProviderToken,
+  );
+}
+
+export const SEO_DISCIPLINE_RESET_ATTRIBUTION = {
+  source: 'organic_search',
+  platform: 'web',
+  account_id: 'owned_site',
+  creative_id: 'seo_discipline_reset',
+  format: 'landing_page',
+  hook_family: 'seven_day_single_commitment',
+  posted_at: '2026-08-28T06:15:00Z',
+} as const;
+
+export function buildSeoDisciplineResetStoreHref(
+  store: Store,
+  appleProviderToken?: string,
+): string {
+  return buildStoreHref(
+    store,
+    new URLSearchParams(SEO_DISCIPLINE_RESET_ATTRIBUTION),
     appleProviderToken,
   );
 }
