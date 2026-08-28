@@ -5,6 +5,7 @@ import {
   buildSeo66DayChallengeStoreHref,
   buildSeoStopStartingOverStoreHref,
   buildSeoDisciplineResetStoreHref,
+  buildSeoConsistencyWithoutMotivationStoreHref,
   SEO_66_DAY_CHALLENGE_ATTRIBUTION,
   SEO_66_DAY_CHALLENGE_PATH,
   SEO_66_DAY_CHALLENGE_PUBLIC_PATH,
@@ -15,6 +16,9 @@ import {
   SEO_DISCIPLINE_RESET_ATTRIBUTION,
   SEO_DISCIPLINE_RESET_PATH,
   SEO_DISCIPLINE_RESET_PUBLIC_PATH,
+  SEO_CONSISTENCY_WITHOUT_MOTIVATION_ATTRIBUTION,
+  SEO_CONSISTENCY_WITHOUT_MOTIVATION_PATH,
+  SEO_CONSISTENCY_WITHOUT_MOTIVATION_PUBLIC_PATH,
   resolveEnglishOnlySeoPath,
 } from './seo.ts';
 
@@ -41,10 +45,51 @@ test('routes the English-only SEO slugs independently of browser language', () =
     '/en/stop-starting-over',
   );
   assert.equal(resolveEnglishOnlySeoPath('/discipline-reset'), '/en/discipline-reset');
+  assert.equal(
+    resolveEnglishOnlySeoPath('/build-consistency-without-motivation'),
+    '/en/build-consistency-without-motivation',
+  );
   assert.equal(resolveEnglishOnlySeoPath('/support'), null);
   assert.equal(SEO_66_DAY_CHALLENGE_PUBLIC_PATH, '/en/66-day-challenge');
   assert.equal(SEO_STOP_STARTING_OVER_PUBLIC_PATH, '/en/stop-starting-over');
   assert.equal(SEO_DISCIPLINE_RESET_PUBLIC_PATH, '/en/discipline-reset');
+  assert.equal(
+    SEO_CONSISTENCY_WITHOUT_MOTIVATION_PUBLIC_PATH,
+    '/en/build-consistency-without-motivation',
+  );
+});
+
+test('defines a distinct stable contract for consistency without motivation', () => {
+  assert.equal(
+    SEO_CONSISTENCY_WITHOUT_MOTIVATION_PATH,
+    '/build-consistency-without-motivation',
+  );
+  assert.deepEqual(SEO_CONSISTENCY_WITHOUT_MOTIVATION_ATTRIBUTION, {
+    source: 'organic_search',
+    platform: 'web',
+    account_id: 'owned_site',
+    creative_id: 'seo_consistency_no_motivation',
+    format: 'landing_page',
+    hook_family: 'minimum_action_before_motivation',
+    posted_at: '2026-08-28T14:18:27Z',
+  });
+
+  const googleUrl = new URL(buildSeoConsistencyWithoutMotivationStoreHref('google'));
+  const referrer = new URLSearchParams(googleUrl.searchParams.get('referrer') ?? '');
+  assert.deepEqual(
+    Object.fromEntries(referrer.entries()),
+    SEO_CONSISTENCY_WITHOUT_MOTIVATION_ATTRIBUTION,
+  );
+  assert.equal(
+    buildSeoConsistencyWithoutMotivationStoreHref('apple'),
+    'https://apps.apple.com/us/app/victus-discipline-habits/id6754204999',
+  );
+  const appleUrl = new URL(
+    buildSeoConsistencyWithoutMotivationStoreHref('apple', '123456789'),
+  );
+  assert.equal(appleUrl.searchParams.get('pt'), '123456789');
+  assert.equal(appleUrl.searchParams.get('ct'), 'seo_consistency_no_motivation');
+  assert.equal(appleUrl.searchParams.get('mt'), '8');
 });
 
 test('defines a distinct stable contract for the discipline-reset page', () => {
